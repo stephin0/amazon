@@ -1,0 +1,889 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+/**************************************** box1 ************************************/
+.nav-logo{
+    background-image : url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    
+
+
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/*****************************************box 2 ******************************8*/
+
+.location{
+    padding: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    margin-left: 14px;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+.add-second{
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#hello{
+    font-size: 12px;
+}
+#acc{
+    font-size: 14px;
+    font-weight: 700;
+}
+/************************************** box3 ****************************************/
+
+.nav-search{
+    display: flex;
+    width: 685px; 
+    height: 40px;
+    background-color:#febd68;
+    justify-content: space-evenly;
+    border-radius: 4px;
+
+
+
+}
+.lang-icon{
+    width: 21.6px;
+    height: 16.2px;
+}
+.lang-icon img{
+    width: 100%;
+    height: 100%;
+}
+.language{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: end;
+}
+.language p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.cart-icon i {
+    font-size: 30px;
+  }
+  .cart-icon{
+      font-size: 14px;
+      font-weight: 700;
+      padding: 4px;
+  }
+  
+
+.accounts-list{
+    padding: 4px;
+}
+
+.order{
+    padding: 4px;
+}
+   .nav-search:focus-within{
+   border: 2px solid orange; 
+  outline: 2px solid orange;
+
+
+}    
+.search-icon{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 19px; 
+    color: #373a3a;
+
+}
+.search-icon i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    
+}
+.searchoption{
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 40px;
+    width: 50px;
+    background-color: #E6E6E6;
+    text-align: center;
+    
+}
+/************************************** under navbar************************/
+.undernavbar{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
+    
+
+.menubar{
+    height: 35px;
+    width: 58px;
+    padding: 0 9px 0 9px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menubar p {
+    font-size: 14px;
+    font-weight: 700;
+}
+.menubar i {
+    font-size: 20px;
+    padding-right: 5px;
+
+}
+
+
+.todays-deal a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+    
+
+}
+
+/****************************************** herosection ***************************************/
+
+.herosection{
+    background-image: url(hero\ image.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.herotext{
+    height: 40px;
+    width: 97%;
+    background-color: #F5F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 310px;
+
+}
+/* ******************************   main    ************************************ */
+
+#main{
+    background-color: #e2e7e6;
+    height: 3715px;
+}
+
+
+
+/**************************//* imageselect /*****************************/
+.image-select-container{
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: space-evenly;
+     height: 1000px; 
+    flex-wrap: wrap;
+
+} 
+.space{
+    position: relative;
+    top: -60px;
+}
+
+.image-nested1 p{
+    font-size: 12px;
+    padding-left: 20px;
+
+}
+.image-nested1 img{
+   position: relative;
+     width: 130px;
+     height: 115px;
+     left: 10px;
+      object-fit:none;  
+     
+      
+}
+.image-nested2 p{
+    font-size: 12px;
+    position: relative;
+    left: 29px;
+    
+
+}
+.image-nested2 img{
+   position: relative;
+     width: 120px;
+     height: 115px;
+     left: 30px; 
+      object-fit:none;  
+     
+}
+.image-nested3 img{
+    width: 249px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    object-fit: none;
+}
+.chappal img{
+    object-fit: cover;
+    width: 280px;
+    height: 152px;
+    position: relative;
+    left: 10px;
+    top: 38px;
+    margin-bottom: 38px;
+}
+.chappal p{
+    padding: 4px;
+    background-color: #CC0C39;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.chappal span{
+    font-size: 12px;
+    color: #CC0C39;
+    font-weight: bolder;
+}
+.chappal div{
+    font-size: 13px;
+}
+#move{
+    position: relative;
+    left: 11px;
+    top: 40px;
+}
+.image-nested4 img{
+    width: 255px;
+    height: 172px;
+    object-fit: none;
+    position: relative;
+    left: 20px;
+}
+.image-nested4 p{
+    position: relative;
+    bottom: 8px;
+    left: 19px;
+}
+.image-nested5 p{
+    position: relative;
+    bottom: 16px;
+    left: 4px;
+}
+.image-nested5 img{
+    width: 82px;
+    height: 75px;
+    object-fit: none;
+    position: relative;
+   left: -2px;
+   
+   top: -35px;
+    
+}
+#move1{
+    left: 5px;
+}
+#move2{
+    left: -10px;
+}
+.imagenested5p{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+ .image-nested5 img{
+   position: relative;
+   top: -14px;
+} 
+
+
+.image-nested-image{
+    display: flex;
+    
+    width: 300px;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+} 
+.image-select{
+    padding-top: 20px;
+    background-color: white;
+    width: 300px;
+    margin-top: 10px;
+    height: 400px;
+    
+}
+.image-select h2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 21px;
+
+}
+#see-more{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 9px;
+} 
+#see-more1{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 15px;
+} 
+#see-more2{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 2px;
+} 
+#see-more3{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 35px;
+    
+}
+#see-more4{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 55px;
+
+}
+
+
+
+/*********************************** best seller in books ****************************/
+
+.books-container{
+    position: relative;
+    top: -409px;
+    background-color: white;
+    width: 1263px;
+    height: 281.5px;
+    left: 20px;
+}
+.books-container h2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 21px;
+    
+}
+
+.books-heading{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 27.5px;
+}
+.books img{
+    position: relative;
+    left: 11px;
+}
+/******************************** movies ***************************************/
+
+.movies-container{
+    position: relative;
+    top: -390px;
+    background-color: white;
+    width: 1263px;
+    height: 281.5px;
+    left: 20px;
+}
+.movies-pictures-container{
+    display: flex;
+    align-content: end;
+    justify-content: space-evenly;
+    position: relative;
+    top: 27.5px;
+}
+.crop   img{
+    position: relative;
+    width: 240px;
+    top: 25px;
+}
+.movies-container h2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 21px;
+}
+.movies-pictures img{
+    position: relative;
+    left: 8px;
+}
+/*************************** games *************************/
+
+.games-container{
+    position: relative;
+    top: -370px;
+    background-color: white;
+    width: 1263px;
+    height: 281.5px;
+    left: 20px;
+}
+.games-container  h2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 21px;
+}
+.games-pictures-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 27.5px;
+
+}
+/* *********************************    new******************** */
+
+.nextdiv-container{
+    display: flex;
+    justify-content:space-evenly ;
+    position: relative;
+    left: -20px;
+    width: 1302px;
+    top: -50px;
+   
+}
+.nextdiv{
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    position: relative;
+    top: -300px;
+    left: 20px;
+}
+.nextdiv h2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 21px;
+}
+.nextdiv1{
+    position: relative;
+    top: 30px;
+}
+.nextdiv-image img{
+    height: 275px;
+    width: 260px;
+    position: relative;
+    left: 20px;
+    top:38px ;
+    object-fit: cover;
+}
+.nextdiv-image1 img{
+    position:relative ;
+    top: 35px;
+    width: 260px;
+    height: 303px;
+    object-fit: none;
+    left: 20px;
+}
+/****************************baby   gifts*****************************/
+
+.baby-gifts-container{
+    background-color: white;
+    position: relative;
+    width: 1263px;
+    bottom: 330px;
+    height: 285px;
+    left: 19px;
+}
+.baby-gifts-container h2{
+    font-size: 21px;
+    position: relative;
+    left: 20px;
+    top: 24px;
+}
+.baby-gifts-container a{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #007185;
+}
+.baby-gifts{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 13px;
+    right: 7px;
+}
+/*********************************deals ***************************/
+
+
+
+.deals-cotainer{
+    background-color: white;
+    height: 366px;
+    width: 1263px;
+    position: relative;
+    bottom: 300px;
+    left: 19px;
+   
+}
+.deals-cotainer a{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+    top: 23px;
+    color:#007185;
+}
+.deals-cotainer h2{
+    position: relative;
+    left: 20px;
+    top: 23px;
+    font-size: 21px;
+}
+.deals-nested{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+    
+}
+
+.deals-image p{
+    padding: 4px;
+    background-color: #CC0C39;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.deals-image span{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.deals-image div{
+    font-size: 13px;
+}
+.under-picture{
+    position: relative;
+    top: 15px;
+}
+#id{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+#first{
+    background-color: #CC0C39;
+    padding: 4px 6px;
+    border-radius: 2px;
+    color: white;
+    
+}
+#sec{
+   color: #CC0C39;
+   font-weight: 700; 
+}
+#third{
+    font-size: 11px;
+    font-weight: lighter;   
+}
+#fourth{
+    font-size: 19px; 
+    font-weight: lighter;  
+}
+#fifth{
+    font-size: 12px; 
+    color: #565959; 
+    font-weight: lighter; 
+}
+#sixth{
+    font-size: 13px;   
+    font-weight: lighter;
+}
+/*********************************** new1******************** */
+
+.nextdiv-container1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+    left: -20px;
+}
+
+/*********************************** book1*********************************** */
+
+.books-container1{
+    position: relative;
+    bottom: 250px;
+    background-color: white;
+    width: 1263px;
+    height: 281.5px;
+    left: 20px;
+}
+
+/********************************popular****************************/
+
+.popular-container{
+    position: relative;
+    bottom: 230px;
+    background-color: white;
+    width: 1267px;
+    height: 281.5px;
+    left: 19px;
+}
+/* *********************************sign********************* */
+
+.sign-up{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(199, 194, 194);
+}
+
+.title{
+    font-size: 13px;
+}
+.signin{
+    
+    background-color: #FFCE52;
+    width: 230px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    line-height: 28px;
+    border: 1px solid rgb(255, 137, 3);
+}
+.signin a{
+    color: #0f1111;
+    text-decoration: none;
+}
+.fotter{
+  font-size: 11px;  
+}
+.fotter a{
+    text-decoration: none;
+    color: #007185;
+}
+.signin button{
+    font-size: 50px;
+}
+/* *****************************footer************************* */
+
+
+.totop{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totop a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.middle{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 430px;
+}
+.middle ul{
+    margin-top: 50px;
+}
+.middle a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.middle p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.div{
+    height: 72px;
+    background-color:#222f3d ;
+    border-top: 1px solid #3a4553;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#English{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 116.95px;
+    justify-content: center;
+    line-height: 2.5;
+    justify-content: space-around;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+#Dollar{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 150.59px;
+    align-items: center;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+#Us{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 141.38px;
+    line-height: 2.5;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+.english-container{
+    display: flex;
+    width: 427.23px;
+    justify-content: space-between;
+}
+#up{
+    filter: invert(32%) sepia(91%) saturate(19%) hue-rotate(341deg) brightness(96%) contrast(89%);
+}
+#down{
+    filter: invert(32%) sepia(91%) saturate(19%) hue-rotate(341deg) brightness(96%) contrast(89%);
+    position: relative;left: -8px; ;top: 5px;
+}
+/* ***************************bottom*********************** */
+.bottom{
+    background-color: #131A22;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.table-container{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+#table-data{
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 116px;
+}
+#table-data a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#table-data span{
+    color: #999999;
+}
+#space-maker{
+    width: 10px;
+    height: 80.953;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#row-space{
+    height: 10px;
+
+}
+#row-a{
+   display: flex;
+   /* justify-content: center; */
+}
+#row-b{
+    display: flex;
+    /* justify-content: center; */
+ }
+ #row-c{
+    display: flex;
+    /* justify-content: center; */
+ }
+ #row-d{
+    display: flex;
+    /* justify-content: center; */
+ }
+.table-body{
+    display: flex;
+    flex-direction: column;
+}
+.bttm{
+    height: 77px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bttm a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: self-start;
+
+}
+.bttm span{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
