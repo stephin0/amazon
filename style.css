@@ -353,7 +353,7 @@
 .image-select{
     padding-top: 20px;
     background-color: white;
-    width: 300px;
+    width: 310px;
     margin-top: 10px;
     height: 400px;
     
@@ -411,6 +411,8 @@
     top: -409px;
     background-color: white;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 281.5px;
     left: 20px;
 }
@@ -439,6 +441,8 @@
     top: -390px;
     background-color: white;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 281.5px;
     left: 20px;
 }
@@ -471,6 +475,8 @@
     top: -370px;
     background-color: white;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 281.5px;
     left: 20px;
 }
@@ -491,16 +497,18 @@
 
 .nextdiv-container{
     display: flex;
-    justify-content:space-evenly ;
+    justify-content:space-between ;
     position: relative;
     left: -20px;
     width: 1302px;
     top: -50px;
+    padding-left: 20px;
+    padding-right: 20px;
    
 }
 .nextdiv{
     background-color: white;
-    width: 300px;
+    width: 310px;
     height: 420px;
     position: relative;
     top: -300px;
@@ -538,6 +546,8 @@
     background-color: white;
     position: relative;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     bottom: 330px;
     height: 285px;
     left: 19px;
@@ -571,6 +581,8 @@
     background-color: white;
     height: 366px;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     bottom: 300px;
     left: 19px;
@@ -665,6 +677,8 @@
     bottom: 250px;
     background-color: white;
     width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 281.5px;
     left: 20px;
 }
@@ -675,7 +689,9 @@
     position: relative;
     bottom: 230px;
     background-color: white;
-    width: 1267px;
+    width: 1263px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 281.5px;
     left: 19px;
 }
