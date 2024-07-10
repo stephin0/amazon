@@ -62,10 +62,10 @@
     display: flex;
     width: 685px; 
     height: 40px;
-    background-color:#febd68;
     justify-content: space-evenly;
     border-radius: 4px;
-
+    border: 1.5px solid transparent; 
+    outline: 1.5px solid transparent;
 
 
 }
@@ -82,6 +82,69 @@
     padding: 10px;
     justify-content: center;
     align-items: end;
+}
+.dig{
+    width: 240px;
+    height: 500px;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 10;
+    border-radius: 4px;
+    display: none;
+}
+.active{
+    display: block;
+}
+#change{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+#change a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left:1rem ;
+    color: #007185;
+}
+#lang-ul li{
+    font-size: 14px;
+}
+#hrf{
+    margin-top: 20px;
+}
+#lang-ul li::marker{
+    font-size: 35px;
+}
+#you{
+ font-size: 14px;
+ margin-top: 2rem;
+ margin-left: 10px;
+}
+#us{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#currency{
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: .5rem;
+}
+#currency a{
+    text-decoration: none;
+    color: rgb(21, 141, 189);
+    padding-left: 1rem;
+}
+#us a{
+    text-decoration: none;
+    color:  rgb(21, 141, 189);
+    padding-left: 3rem;
+}
+.dig p,ul{
+    color: black;
+}
+.dig ul{
+    list-style-type:circle;
 }
 .language p{
     font-size: 14px;
@@ -103,13 +166,75 @@
 .accounts-list{
     padding: 4px;
 }
-
+.account-container{
+    position: relative;
+}
+.under-accounts{
+    width: 470px;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    z-index: 1;
+    right: 3rem;
+    top: 8.8%;
+    padding: 20px;
+    display: none;
+}
+.active-underacc{
+    display: block;
+}
+.under-accounts-singin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.under-accounts-singin p{
+    color: #000;
+    font-size: 12px;
+}
+.under-accounts-singin a {
+    text-decoration: none;
+    color: #007185;
+}
+#underaccbtn{
+    padding: 5px 0;
+    width: 200px;
+    background-color: #FFCE52;
+    border: 1px solid #febd68;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+.under-acc-list-container{
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+   
+}
+.list-cont-two{
+    border-left: 1px solid gray;
+}
+.list-cont-ul{
+    list-style: none;
+}
+.list-cont-ul li{
+    font-size: 13px;
+    margin-top: .5rem;
+    color: rgb(53, 50, 50);
+}
+.list-cont-ul li:hover{
+    color: orange;
+    text-decoration: underline;
+}
 .order{
     padding: 4px;
 }
    .nav-search:focus-within{
-   border: 2px solid orange; 
-  outline: 2px solid orange;
+   outline: 2px solid orange; 
+   border:2px solid orange ;
+  
 
 
 }    
@@ -122,6 +247,7 @@
     align-items: center;
      font-size: 19px; 
     color: #373a3a;
+    background-color:#febd68;
 
 }
 .search-icon i{
@@ -137,8 +263,8 @@
 }
 .searchoption{
     border: none;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     height: 40px;
     width: 50px;
     background-color: #E6E6E6;
@@ -152,11 +278,63 @@
     color: white;
     display: flex;
     align-items: center;
-
-
-}
     
 
+}
+
+.slide-bar-container{
+    
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transform: translateX(-100%);
+    display: flex;
+}   
+#side-bar-close{
+    align-self: flex-start;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+} 
+.side-bar-items{
+    color: black;
+    padding-left: 20px;
+}
+.side-bar-items-wrapper{
+    height: 100%;
+    overflow: auto;
+}
+.side-bar-items h3{
+   margin-top: 1rem;
+}
+.side-bar-items p{
+    margin-top: 1rem;
+}
+
+.active-sidebar{
+    transform: translateX(0%);  
+}
+.slide-bar{
+    width: 360px;
+    height: 100%;
+    background-color: white;
+}
+.side-bar-top{
+    /* color: white; */
+    display: flex;
+    background-color: #131A22;
+    height: 50px;
+    align-items: center;
+    
+}
 .menubar{
     height: 35px;
     width: 58px;
@@ -164,7 +342,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    cursor: pointer;
 }
 .menubar p {
     font-size: 14px;
@@ -187,32 +365,44 @@
 }
 
 /****************************************** herosection ***************************************/
-
 .herosection{
-    background-image: url(hero\ image.jpg);
-    height: 600px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.herotext{
-    height: 40px;
-    width: 97%;
-    background-color: #F5F6F6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
+    text-align: center;
     position: relative;
-    bottom: 310px;
+    overflow: hidden;
+}
+.hero-images img{
+    height: 600px;
+    width: 1343px;
+}
+.hero-images{
 
+    transition: 1s;
+}
+.hero-images-container{
+    display: flex;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+.btn-container button{
+    height: 200px;
+    width: 50px;
+    background-color: transparent;
+    font-size: 50px;
+    border: none;
+}
+.btn-container button:focus{
+    
+    border: 1px solid black;
 }
 /* ******************************   main    ************************************ */
 
 #main{
     background-color: #e2e7e6;
-    height: 3715px;
 }
 
 
@@ -223,13 +413,14 @@
     top: -300px;
     display: flex;
     justify-content: space-evenly;
-     height: 1000px; 
+     /* height: 100%;  */
     flex-wrap: wrap;
-
+    align-items: center;
+    gap: 1rem;
 } 
 .space{
     position: relative;
-    top: -60px;
+    /* top: -60px; */
 }
 
 .image-nested1 p{
@@ -402,19 +593,22 @@
 
 }
 
-
+.under-whole-content-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*********************************** best seller in books ****************************/
 
 .books-container{
     position: relative;
-    top: -409px;
+    top: -280px;
     background-color: white;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
+    
     height: 281.5px;
-    left: 20px;
+    /* left: 20px; */
+    
 }
 .books-container h2{
     position: relative;
@@ -429,29 +623,53 @@
     justify-content: space-evenly;
     position: relative;
     top: 27.5px;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 .books img{
     position: relative;
     left: 11px;
+    margin: 0 1rem;
+}
+.bbtncontainer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    top: 100px;
+}
+.bbtncontainer button{
+  padding: 50px 30px; 
+  z-index: 1;
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 40px;
+
 }
 /******************************** movies ***************************************/
 
 .movies-container{
     position: relative;
-    top: -390px;
+    top: -260px;
     background-color: white;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
     height: 281.5px;
-    left: 20px;
+    /* left: 20px; */
+    
+}
+.movies-btn{
+    padding: 40px 10px;
+    background-color: transparent;
+    z-index: 1;
 }
 .movies-pictures-container{
     display: flex;
-    align-content: end;
     justify-content: space-evenly;
     position: relative;
     top: 27.5px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
 }
 .crop   img{
     position: relative;
@@ -466,19 +684,24 @@
 }
 .movies-pictures img{
     position: relative;
-    left: 8px;
+    
+}
+.movies-pictures{
+
+    position: relative;
+    
+}
+.movies-pictures img {
+    margin: 0 1rem;
 }
 /*************************** games *************************/
 
 .games-container{
     position: relative;
-    top: -370px;
+    top: -240px;
     background-color: white;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
     height: 281.5px;
-    left: 20px;
+    /* left: 20px; */
 }
 .games-container  h2{
     position: relative;
@@ -491,24 +714,28 @@
     justify-content: space-evenly;
     position: relative;
     top: 27.5px;
+    overflow: auto;
+    scroll-behavior: smooth;
 
+}
+.games-pictures img{
+    margin: 0 1rem;
 }
 /* *********************************    new******************** */
 
 .nextdiv-container{
     display: flex;
-    justify-content:space-between ;
+    justify-content:center;
     position: relative;
-    left: -20px;
-    width: 1302px;
-    top: -50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1300px;
+    top: 80px;
+    gap: .8rem;
+    flex-wrap: wrap;
    
 }
 .nextdiv{
     background-color: white;
-    width: 310px;
+    width: 320px;
     height: 420px;
     position: relative;
     top: -300px;
@@ -525,8 +752,8 @@
     top: 30px;
 }
 .nextdiv-image img{
-    height: 275px;
-    width: 260px;
+    height: 200px;
+    width: 250px;
     position: relative;
     left: 20px;
     top:38px ;
@@ -535,7 +762,7 @@
 .nextdiv-image1 img{
     position:relative ;
     top: 35px;
-    width: 260px;
+    width: 290px;
     height: 303px;
     object-fit: none;
     left: 20px;
@@ -545,12 +772,13 @@
 .baby-gifts-container{
     background-color: white;
     position: relative;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 330px;
+    max-width: 1280px;
+    bottom: 200px;
     height: 285px;
-    left: 19px;
+    /* left: 19px; */
+}
+.baby-gifts-image img{
+    margin:0 1rem;
 }
 .baby-gifts-container h2{
     font-size: 21px;
@@ -572,6 +800,8 @@
     position: relative;
     top: 13px;
     right: 7px;
+    overflow: auto;
+    scroll-behavior: smooth;
 }
 /*********************************deals ***************************/
 
@@ -580,12 +810,10 @@
 .deals-cotainer{
     background-color: white;
     height: 366px;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 1280px;
     position: relative;
-    bottom: 300px;
-    left: 19px;
+    bottom: 180px;
+    overflow: auto;
    
 }
 .deals-cotainer a{
@@ -664,9 +892,10 @@
 
 .nextdiv-container1{
     display: flex;
-    justify-content: space-evenly;
+    max-width: 1280px;
+    justify-content: space-between;
     position: relative;
-    top: 30px;
+    top: 140px;
     left: -22px;
 }
 
@@ -674,26 +903,23 @@
 
 .books-container1{
     position: relative;
-    bottom: 250px;
+    bottom: 140px;
     background-color: white;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1280px;
     height: 281.5px;
-    left: 20px;
+    overflow: auto;
 }
 
 /********************************popular****************************/
 
 .popular-container{
     position: relative;
-    bottom: 230px;
+    bottom: 120px;
     background-color: white;
-    width: 1263px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1280px;
     height: 281.5px;
-    left: 19px;
+    /* left: 19px; */
+    overflow: auto;
 }
 /* *********************************sign********************* */
 

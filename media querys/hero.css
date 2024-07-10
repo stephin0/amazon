@@ -1,0 +1,1235 @@
+@media(max-width:1440px){    
+
+.hero-images img{
+    height: 600px;
+    width: 1440px;
+}
+.image-select-container{
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+     /* height: 100%;  */
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+} 
+.space{
+    position: relative;
+    /* top: -60px; */
+}
+
+.image-nested1 p{
+    font-size: 12px;
+    padding-left: 20px;
+
+}
+.image-nested1 img{
+   position: relative;
+     width: 130px;
+     height: 115px;
+     left: 10px;
+      object-fit:none;  
+     
+      
+}
+.image-nested2 p{
+    font-size: 12px;
+    position: relative;
+    left: 29px;
+    
+
+}
+.image-nested2 img{
+   position: relative;
+     width: 120px;
+     height: 115px;
+     left: 30px; 
+      object-fit:none;  
+     
+}
+.image-nested3 img{
+    width: 249px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    object-fit: none;
+}
+.chappal img{
+    object-fit: cover;
+    width: 280px;
+    height: 152px;
+    position: relative;
+    left: 10px;
+    top: 38px;
+    margin-bottom: 38px;
+}
+.chappal p{
+    padding: 4px;
+    background-color: #CC0C39;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.chappal span{
+    font-size: 12px;
+    color: #CC0C39;
+    font-weight: bolder;
+}
+.chappal div{
+    font-size: 13px;
+}
+#move{
+    position: relative;
+    left: 11px;
+    top: 40px;
+}
+.image-nested4 img{
+    width: 255px;
+    height: 172px;
+    object-fit: none;
+    position: relative;
+    left: 20px;
+}
+.image-nested4 p{
+    position: relative;
+    bottom: 8px;
+    left: 19px;
+}
+.image-nested5 p{
+    position: relative;
+    bottom: 16px;
+    left: 4px;
+}
+.image-nested5 img{
+    width: 82px;
+    height: 75px;
+    object-fit: none;
+    position: relative;
+   left: -2px;
+   
+   top: -35px;
+    
+}
+#move1{
+    left: 5px;
+}
+#move2{
+    left: -10px;
+}
+.imagenested5p{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+ .image-nested5 img{
+   position: relative;
+   top: -14px;
+} 
+
+
+.image-nested-image{
+    display: flex;
+    
+    width: 300px;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+} 
+.image-select{
+    padding-top: 20px;
+    background-color: white;
+    width: 310px;
+    margin-top: 10px;
+    height: 400px;
+    
+}
+.image-select h2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 21px;
+
+}
+#see-more{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 9px;
+} 
+#see-more1{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 15px;
+} 
+#see-more2{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 2px;
+} 
+#see-more3{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 35px;
+    
+}
+#see-more4{
+    font-size: 13px;
+    color: #007185;
+    position:relative;
+     left: 17px; 
+    top: 55px;
+
+}
+
+.under-whole-content-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*********************************** best seller in books ****************************/
+
+.books-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 281.5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.books-container h2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 21px;
+    
+}
+
+.books-heading{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 27.5px;
+    overflow: auto;
+    padding: 0 10px;
+    scroll-behavior: smooth;
+}
+.bbtncontainer{
+    position: absolute;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    left: 20px;
+    right: 0;
+    top: 100px;
+}
+.bbtncontainer button{
+  padding: 20px 10px; 
+  z-index: 1;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+/******************************** movies ***************************************/
+
+.movies-container{
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 281.5px;
+    /* left: 20px; */
+    
+}
+.movies-btn{
+    padding: 40px 10px;
+    background-color: transparent;
+    z-index: 1;
+}
+.movies-pictures-container{
+    padding-left: 20px;
+    
+}
+.crop   img{
+    position: relative;
+    width: 240px;
+    top: 25px;
+}
+.movies-container h2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 21px;
+}
+.movies-pictures img{
+    position: relative;
+    
+}
+.movies-pictures{
+
+    position: relative;
+    
+}
+.movies-pictures img {
+    margin: 0 1rem;
+}
+/*************************** games *************************/
+
+.games-container{
+    max-width: 1280px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.games-pictures-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 27.5px;
+    overflow: auto;
+    scroll-behavior: smooth;
+
+}
+.games-pictures img{
+    margin: 0 1rem;
+}
+/* *********************************    new******************** */
+
+.nextdiv-container{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    left: -20px;
+    max-width: 1300px;
+    top: 80px;
+    gap: .8rem;
+    flex-wrap: wrap;
+   
+}
+.nextdiv{
+    background-color: white;
+    width: 310px;
+    height: 420px;
+    position: relative;
+    top: -300px;
+    left: 20px;
+}
+.nextdiv h2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 21px;
+}
+.nextdiv1{
+    position: relative;
+    top: 30px;
+}
+.nextdiv-image img{
+    height: 230px;
+    width: 250px;
+    position: relative;
+    left: 20px;
+    top:38px ;
+    object-fit: cover;
+}
+.nextdiv-image1 img{
+    position:relative ;
+    top: 35px;
+    width: 250px;
+    height: 280px;
+    object-fit: none;
+    left: 20px;
+}
+/****************************baby   gifts*****************************/
+
+.baby-gifts-container{
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.baby-gifts-image img{
+    margin:0 1rem;
+}
+.baby-gifts-container h2{
+    font-size: 21px;
+    position: relative;
+    left: 20px;
+    top: 24px;
+}
+.baby-gifts-container a{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #007185;
+}
+.baby-gifts{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 13px;
+    right: 7px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+/*********************************deals ***************************/
+
+
+
+.deals-cotainer{
+    height: 366px;
+    width: 1280px;
+}
+.deals-cotainer a{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+    top: 23px;
+    color:#007185;
+}
+.deals-cotainer h2{
+    position: relative;
+    left: 20px;
+    top: 23px;
+    font-size: 21px;
+}
+.deals-nested{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+    
+}
+
+.deals-image p{
+    padding: 4px;
+    background-color: #CC0C39;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.deals-image span{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.deals-image div{
+    font-size: 13px;
+}
+.under-picture{
+    position: relative;
+    top: 15px;
+}
+#id{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+#first{
+    background-color: #CC0C39;
+    padding: 4px 6px;
+    border-radius: 2px;
+    color: white;
+    
+}
+#sec{
+   color: #CC0C39;
+   font-weight: 700; 
+}
+#third{
+    font-size: 11px;
+    font-weight: lighter;   
+}
+#fourth{
+    font-size: 19px; 
+    font-weight: lighter;  
+}
+#fifth{
+    font-size: 12px; 
+    color: #565959; 
+    font-weight: lighter; 
+}
+#sixth{
+    font-size: 13px;   
+    font-weight: lighter;
+}
+/*********************************** new1******************** */
+
+.nextdiv-container1{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+    gap: 1rem;
+    position: relative;
+    top: 140px;
+    left: -22px;
+}
+
+/*********************************** book1*********************************** */
+
+.books-container1{
+    max-width: 1280px;
+     padding-left: 20px;
+    padding-right: 20px; 
+    height: 281.5px;
+    /* left: 18px; */
+    overflow: auto;
+}
+
+/********************************popular****************************/
+
+.popular-container{
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+    max-width: 1280px;
+    padding-right: 20px;
+    height: 281.5px;
+    /* left: 19px; */
+    overflow: auto;
+}
+/* *********************************sign********************* */
+
+.sign-up{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(199, 194, 194);
+}
+
+.title{
+    font-size: 13px;
+}
+.signin{
+    
+    background-color: #FFCE52;
+    width: 230px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    line-height: 28px;
+    border: 1px solid rgb(255, 137, 3);
+}
+.signin a{
+    color: #0f1111;
+    text-decoration: none;
+}
+.fotter{
+  font-size: 11px;  
+}
+.fotter a{
+    text-decoration: none;
+    color: #007185;
+}
+.signin button{
+    font-size: 50px;
+}
+/* *****************************footer************************* */
+
+
+.totop{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totop a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.middle{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 430px;
+}
+.middle ul{
+    margin-top: 50px;
+}
+.middle a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.middle p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.div{
+    height: 72px;
+    background-color:#222f3d ;
+    border-top: 1px solid #3a4553;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#English{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 116.95px;
+    justify-content: center;
+    line-height: 2.5;
+    justify-content: space-around;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+#Dollar{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 150.59px;
+    align-items: center;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+#Us{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    height: 33px;
+    width: 141.38px;
+    line-height: 2.5;
+    font-size: 13px;
+    color: #CCCCCC;
+    border-radius: 3px;
+}
+.english-container{
+    display: flex;
+    width: 427.23px;
+    justify-content: space-between;
+}
+#up{
+    filter: invert(32%) sepia(91%) saturate(19%) hue-rotate(341deg) brightness(96%) contrast(89%);
+}
+#down{
+    filter: invert(32%) sepia(91%) saturate(19%) hue-rotate(341deg) brightness(96%) contrast(89%);
+    position: relative;left: -8px; ;top: 5px;
+}
+/* ***************************bottom*********************** */
+.bottom{
+    background-color: #131A22;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.table-container{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+#table-data{
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 116px;
+}
+#table-data a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#table-data span{
+    color: #999999;
+}
+#space-maker{
+    width: 10px;
+    height: 80.953;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#row-space{
+    height: 10px;
+
+}
+#row-a{
+   display: flex;
+   /* justify-content: center; */
+}
+#row-b{
+    display: flex;
+    /* justify-content: center; */
+ }
+ #row-c{
+    display: flex;
+    /* justify-content: center; */
+ }
+ #row-d{
+    display: flex;
+    /* justify-content: center; */
+ }
+.table-body{
+    display: flex;
+    flex-direction: column;
+}
+.bttm{
+    height: 77px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bttm a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-self: self-start;
+
+}
+.bttm span{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+}
+@media(max-width:1024px){
+    .hero-images img{
+        height: 600px;
+        width: 1440px;
+    }
+    .image-select-container{
+        position: relative;
+        top: -300px;
+        display: flex;
+        justify-content: center;
+         /* height: 100%;  */
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+    } 
+    .space{
+        position: relative;
+        /* top: -60px; */
+    }
+    
+    .image-nested1 p{
+        font-size: 12px;
+        padding-left: 20px;
+    
+    }
+    .image-nested1 img{
+       position: relative;
+         width: 130px;
+         height: 115px;
+         left: 10px;
+          object-fit:none;  
+         
+          
+    }
+    .image-nested2 p{
+        font-size: 12px;
+        position: relative;
+        left: 29px;
+        
+    
+    }
+    .image-nested2 img{
+       position: relative;
+         width: 120px;
+         height: 115px;
+         left: 30px; 
+          object-fit:none;  
+         
+    }
+    .image-nested3 img{
+        width: 249px;
+        height: 300px;
+        position: relative;
+        left: 25px;
+        object-fit: none;
+    }
+    .chappal img{
+        object-fit: cover;
+        width: 280px;
+        height: 152px;
+        position: relative;
+        left: 10px;
+        top: 38px;
+        margin-bottom: 38px;
+    }
+    .chappal p{
+        padding: 4px;
+        background-color: #CC0C39;
+        display: inline-block;
+        color: white;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+    .chappal span{
+        font-size: 12px;
+        color: #CC0C39;
+        font-weight: bolder;
+    }
+    .chappal div{
+        font-size: 13px;
+    }
+    #move{
+        position: relative;
+        left: 11px;
+        top: 40px;
+    }
+    .image-nested4 img{
+        width: 255px;
+        height: 172px;
+        object-fit: none;
+        position: relative;
+        left: 20px;
+    }
+    .image-nested4 p{
+        position: relative;
+        bottom: 8px;
+        left: 19px;
+    }
+    .image-nested5 p{
+        position: relative;
+        bottom: 16px;
+        left: 4px;
+    }
+    .image-nested5 img{
+        width: 82px;
+        height: 75px;
+        object-fit: none;
+        position: relative;
+       left: -2px;
+       
+       top: -35px;
+        
+    }
+    #move1{
+        left: 5px;
+    }
+    #move2{
+        left: -10px;
+    }
+    .imagenested5p{
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+     .image-nested5 img{
+       position: relative;
+       top: -14px;
+    } 
+    
+    
+    .image-nested-image{
+        display: flex;
+        
+        width: 300px;
+        height: 350px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } 
+    .image-select{
+        padding-top: 20px;
+        background-color: white;
+        width: 310px;
+        margin-top: 10px;
+        height: 400px;
+        
+    }
+    .image-select h2{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-size: 21px;
+    
+    }
+    #see-more{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 9px;
+    } 
+    #see-more1{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 15px;
+    } 
+    #see-more2{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 2px;
+    } 
+    #see-more3{
+            font-size: 13px;
+            color: #007185;
+            position:relative;
+             left: 17px; 
+            top: 35px;
+        
+    }
+    #see-more4{
+        font-size: 13px;
+        color: #007185;
+        position:relative;
+         left: 17px; 
+        top: 55px;
+    
+    }
+    
+    .under-whole-content-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*********************************** best seller in books ****************************/
+    
+    .books-container{
+        max-width: 900px;
+        height: 281.5px;
+        padding-right: 20px;
+    }
+    .bbtncontainer button{
+      padding: 20px 10px; 
+      z-index: 1;
+      background-color: white;
+      cursor: pointer;
+      font-size: 20px;
+    
+    }
+    /******************************** movies ***************************************/
+    
+    .movies-container{
+        padding-right: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        height: 281.5px;
+        /* left: 20px; */
+        
+    }
+    .movies-btn{
+        padding: 40px 10px;
+        background-color: transparent;
+        z-index: 1;
+    }
+    .movies-pictures-container{
+        padding-left: 20px;
+        
+    }
+    .crop   img{
+        position: relative;
+        width: 240px;
+        top: 25px;
+    }
+    .movies-container h2{
+        position: relative;
+        top: 25px;
+        left: 20px;
+        font-size: 21px;
+    }
+    .movies-pictures img{
+        position: relative;
+        
+    }
+    .movies-pictures{
+    
+        position: relative;
+        
+    }
+    .movies-pictures img {
+        margin: 0 1rem;
+    }
+    /*************************** games *************************/
+    
+    .games-container{
+        max-width: 900px;
+        padding-right: 20px;
+    }
+    .games-pictures-container{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 27.5px;
+        overflow: auto;
+        scroll-behavior: smooth;
+    
+    }
+    .games-pictures img{
+        margin: 0 1rem;
+    }
+    /* *********************************    new******************** */
+    
+    .nextdiv-container{
+        display: flex;
+        justify-content:center;
+        position: relative;
+        left: -20px;
+        max-width: 1300px;
+        top: 80px;
+        gap: .8rem;
+        flex-wrap: wrap;
+       
+    }
+    .nextdiv{
+        background-color: white;
+        width: 310px;
+        height: 420px;
+        position: relative;
+        top: -300px;
+        left: 20px;
+    }
+    .nextdiv h2{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        font-size: 21px;
+    }
+    .nextdiv1{
+        position: relative;
+        top: 30px;
+    }
+    .nextdiv-image img{
+        height: 230px;
+        width: 250px;
+        position: relative;
+        left: 20px;
+        top:38px ;
+        object-fit: cover;
+    }
+    .nextdiv-image1 img{
+        position:relative ;
+        top: 35px;
+        width: 250px;
+        height: 280px;
+        object-fit: none;
+        left: 20px;
+    }
+    /****************************baby   gifts*****************************/
+    
+    .baby-gifts-container{
+        max-width: 900px;
+    }
+    .baby-gifts-image img{
+        margin:0 1rem;
+    }
+    .baby-gifts-container h2{
+        font-size: 21px;
+        position: relative;
+        left: 20px;
+        top: 24px;
+    }
+    .baby-gifts-container a{
+        position: relative;
+        left: 250px;
+        top: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #007185;
+    }
+    .baby-gifts{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 13px;
+        right: 7px;
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    /*********************************deals ***************************/
+    
+    
+    
+    .deals-cotainer{
+        height: 366px;
+        width: 900px;
+    }
+    .deals-cotainer a{
+        text-decoration: none;
+        font-size: 14px;
+        position: relative;
+        left: 30px;
+        top: 23px;
+        color:#007185;
+    }
+    .deals-cotainer h2{
+        position: relative;
+        left: 20px;
+        top: 23px;
+        font-size: 21px;
+    }
+    .deals-nested{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 40px;
+        
+    }
+    
+    .deals-image p{
+        padding: 4px;
+        background-color: #CC0C39;
+        color: white;
+        font-size: 12px;
+        border-radius: 2px;
+    }
+    .deals-image span{
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .deals-image div{
+        font-size: 13px;
+    }
+    .under-picture{
+        position: relative;
+        top: 15px;
+    }
+    #id{
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+    #first{
+        background-color: #CC0C39;
+        padding: 4px 6px;
+        border-radius: 2px;
+        color: white;
+        
+    }
+    #sec{
+       color: #CC0C39;
+       font-weight: 700; 
+    }
+    #third{
+        font-size: 11px;
+        font-weight: lighter;   
+    }
+    #fourth{
+        font-size: 19px; 
+        font-weight: lighter;  
+    }
+    #fifth{
+        font-size: 12px; 
+        color: #565959; 
+        font-weight: lighter; 
+    }
+    #sixth{
+        font-size: 13px;   
+        font-weight: lighter;
+    }
+    /*********************************** new1******************** */
+    
+    .nextdiv-container1{
+        display: flex;
+        max-width: 1280px;
+        justify-content: space-evenly;
+        position: relative;
+        top: 140px;
+        left: -22px;
+        flex-wrap: wrap;
+    }
+    .id{
+        display:none;
+    }
+    /*********************************** book1*********************************** */
+    
+    .books-container1{
+        max-width: 900px;
+        height: 281.5px;
+        /* left: 18px; */
+        overflow: auto;
+    }
+    
+    /********************************popular****************************/
+    
+    .popular-container{
+        position: relative;
+        bottom: 120px;
+        background-color: white;
+        max-width: 900px;
+        padding-right: 20px;
+        height: 281.5px;
+        /* left: 19px; */
+        overflow: auto;
+    }  
+     
+
+}
+@media(max-width:768px){    
+
+}
+@media(max-width:425px){    
+
+}
+@media(max-width:375px){    
+
+}
+@media(max-width:320px){    
+    .books-container{
+        position: relative;
+        top: -280px;
+        background-color: rgb(205, 18, 18);
+        width: 170px; 
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 200.5px;
+        /* left: 20px; */
+        
+    }
+    .books img{
+        width: 50px;
+        height: 100px;
+    }
+    .books-container h2{
+        position: relative;
+        top: 25px;
+        left: 20px;
+        font-size: 21px;
+        
+    }
+    
+    .books-heading{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 27.5px;
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    .bbtncontainer{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        top: 100px;
+    }
+    .bbtncontainer button{
+      padding: 20px 10px; 
+      z-index: 1;
+      background-color: white;
+      cursor: pointer;
+      font-size: 20px;
+    
+    }
+}
+@media(max-width:280px){    
+
+}

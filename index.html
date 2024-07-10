@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Amazon.com. Spend less. Smile more.</title>
     <link rel="icon" href="https://th.bing.com/th/id/OIP.nynNKCUJvawhpISc05BcswAAAA?w=175&h=196&c=7&r=0&o=5&pid=1.7"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media querys/hero.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.1/css/flag-icons.min.css" integrity="sha512-bZBu2H0+FGFz/stDN/L0k8J0G8qVsAL0ht1qg5kTwtAheiXwiRKyCq1frwfbSFSJN3jooR5kauE0YjtPzhZtJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -31,17 +32,74 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-            <div class="language border">
-                <div class="lang-icon">
-                    <img src="https://th.bing.com/th/id/OIP.5k3WNuXphz58RseLAG2n-wHaD9?rs=1&pid=ImgDetMain">
+            <div class="lang-container">
+                <div class="language border">
+                    <div class="lang-icon">
+                        <img src="https://th.bing.com/th/id/OIP.5k3WNuXphz58RseLAG2n-wHaD9?rs=1&pid=ImgDetMain">
+                    </div>
+                    <p>EN</p>
                 </div>
-                <p>EN</p>
+                <div class="dig">
+                    <p id="change">Change language<a href="#">Learn more</a></p>
+                    <ul id="lang-ul">
+                        <li>English-EN</li>
+                        <hr id="hrf">
+                        <li>español - ES</li>
+                        <li>العربية - AR</li>
+                        <li> Deutsch - DE</li>
+                        <li>עברית - HE</li>
+                        <li>한국어 - KO</li>
+                        <li>português - PT中文 (简体) - ZH</li>
+                        <li> 中文 (繁體) - ZH</li>
+                    </ul>
+                    <hr id="hrf">
+                    <p id="currency">Change currency<a href="#">Learn more</a></p>
+                    <p id="us">$ - USD - US Dollar <a href="">Change</a></p>
+                    <p id="you">You are shopping on Amazon.com </p>
+                </div>
             </div>
+            
+            
             
 
             <div class="accounts-list border">
-                <p id="hello">Hello, sign in</p>
-                <p id="acc">Accounts & Lists</p>
+                <div class="account-container">
+                    <p id="hello">Hello, sign in</p>
+                    <p id="acc">Accounts & Lists</p>
+                </div>
+                <div class="under-accounts">
+                    <div class="under-accounts-singin">
+                        <a href="otherhtml/signin.html"><button id="underaccbtn">Sign in</button></a>
+                        <p>New customer? <a href="">Start here</a></p>
+                    </div>
+                    <hr>
+                    <div class="under-acc-list-container">
+                        <div class="list-cont-one">
+                            <ul class="list-cont-ul">
+                                <h4>Your Lists</h4>
+                                <li>Create a List</li>
+                                <li>Find a List or Registry</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="list-cont-two">
+                            <ul class="list-cont-ul">
+                                <h4>Your Account</h4>
+                                <li>Accounts</li>
+                                <li>Orders</li>
+                                <li>Recommendations</li>
+                                <li>Browsing History</li>
+                                <li>Watchlist</li>
+                                <li>Video Purchase & Rentals</li>
+                                <li>Kindle Unlimited</li>
+                                <li>Content & Devices</li>
+                                <li>Subscribe & Save Items</li>
+                                <li>Memberships & Subscriptions</li>
+                                <li>Music Library</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -61,10 +119,56 @@
                
         </div>
         <div class="undernavbar"  > 
-            
-            <div class="menubar border">
-                <i class="fa-solid fa-bars"></i>
-                <p>All</p>
+            <div class="undernav-left">
+                <div class="menubar border">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>All</p>
+                </div>
+                <div class="slide-bar-container">
+                    <div class="slide-bar">
+                        <div class="side-bar-top">
+                            <i class="fa-solid fa-circle-user fa-xl"></i>
+                            <h3>Hello,sing up</h3>
+                        </div>
+                        <div class="side-bar-items-wrapper">
+                            <div class="side-bar-items">
+                                <h3>Digital Content & Devices</h3>
+                                <p>Amazon Music</p>
+                                <p>Kindle E-readers & Books</p>
+                                <p></p>
+                                <hr>
+                                <h3>Shop by Department</h3>
+                                <p>Electronics</p>
+                                <p>computers</p>
+                                <p>Smart Home</p>
+                                <p>Arts & Crafts</p>
+                                <p>See all</p>
+                                <p></p>
+                                <hr>
+                                <h3>Programs & Features</h3>
+                                <p>Gift Cards</p>
+                                <p>Shop By Interest</p>
+                                <p>Amazon Live</p>
+                                <p>International Shopping</p>
+                                <p>See all</p>
+                                <p></p>
+                                <hr>
+                                <h3>Help & Serrings</h3>
+                                <p>Your Account</p>
+                                <p>English</p>
+                                <p>United States</p>
+                                <p>Customer Service</p>
+                                <p>Sign in</p>
+    
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    <button id="side-bar-close"> 
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                
             </div>
 
           <div class="todays-deal">
@@ -80,9 +184,36 @@
     </header>
     <!------------------------------ herosection ----------------------->
     <div class="herosection">
-       <div class="herotext">
-        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a> </p>
-       </div>
+        <div class="hero-images-container">
+            <div class="hero-images">
+                <img src="hero image.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 2.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 3.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 4.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 5.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 6.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 7.jpg" alt="">
+            </div>
+            <div class="hero-images">
+                <img src="hero image 8.jpg" alt="">
+            </div>
+        </div>   
+        <div class="btn-container">
+            <button id="btn-left"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="btn-right"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
     <!-- -------------------------image-select ------------------------------->
     <main id="main">
@@ -222,417 +353,599 @@
             </div>
       </div>
       <!------------------------------- best sellers in books ------------------------------------>
-      <div class="books-container">
-        <h2>Best Sellers in Books</h2>
-        <div class="books-heading">
-            <div class="books">
-                <img src="book1.jpg">
+      <div class="under-whole-content-container">
+            <div class="books-container">
+                <div class="bbtncontainer">
+                    <button id="buttonleft">
+                    <
+                    </button>
+                    <button id="buttonright">
+                     >
+                    </button>
+                </div>
+                <h2>Best Sellers in Books</h2>
+                <div class="books-heading">
+                   
+                    <div class="books">
+                        <img src="book1.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book2.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book3.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book4.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book5.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book6.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book7.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="book8.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/61txtQq4GpL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/613W4kwEaZL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/61hbmjU+JmL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/71SKF3tDekL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/61Kw20eTzLL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/51VTLtKPVsL._AC_SY200_.jpg">
+                    </div>
+                    <div class="books">
+                        <img src="https://m.media-amazon.com/images/I/61SWNR0D0rL._AC_SY200_.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="books">
-                <img src="book2.jpg">
+          <!-------------------------------- most wished in movies ---------------------------------->
+    
+          <div class="movies-container">
+            <div class="bbtncontainer">
+                <button id="buttonleft1">
+                   <
+                </button>
+                <button id="buttonright1">
+                    >
+                </button>
             </div>
-            <div class="books">
-                <img src="book3.jpg">
+            <h2>Most wished for in Movies & TV</h2>
+            <div class="movies-pictures-container">   
+                <div class="movies-pictures">
+                    <img src="movie1.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="movie2.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="movie3.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="movie4.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="movie5.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="movie6.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="https://m.media-amazon.com/images/I/81cqVE2vwvL._AC_SY200_.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="https://m.media-amazon.com/images/I/71HH+CAgaJL._AC_SY200_.jpg">
+                </div>
+                <div class="movies-pictures ">
+                    <img src="https://m.media-amazon.com/images/I/71AtfshHiGL._AC_SY200_.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="https://m.media-amazon.com/images/I/71hE73ha6OL._AC_SY200_.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="https://m.media-amazon.com/images/I/81cVyMQN3NL._AC_SY200_.jpg">
+                </div>
+                <div class="movies-pictures">
+                    <img src="https://m.media-amazon.com/images/I/71IXM3sX7-L._AC_SY200_.jpg">
+                </div>
+                
             </div>
-            <div class="books">
-                <img src="book4.jpg">
+          </div>
+          <!----------------------------------- games --------------------------->
+    
+          <div class="games-container">
+            <div class="bbtncontainer">
+                <button id="buttonleft2">
+                   <
+                </button>
+                <button id="buttonright2">
+                    >
+                </button>
             </div>
-            <div class="books">
-                <img src="book5.jpg">
+            <h2>Most wished for in Video Games</h2>
+            <div class="games-pictures-container">
+                <div class="games-pictures">
+                    <img src="game1.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game2.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game3.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game4.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game5.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game6.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game7.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/8180PnYzsxL._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/71FE4-P8hwL._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/91M8HM0QlDL._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/81o5QpJ7aVL._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/61nqNujSF2L._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/81gu2dFpntL._AC_SY200_.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="https://m.media-amazon.com/images/I/81UfEdvf2kL._AC_SY200_.jpg">
+                </div>
             </div>
-            <div class="books">
-                <img src="book6.jpg">
-            </div>
-            <div class="books">
-                <img src="book7.jpg">
-            </div>
-            <div class="books">
-                <img src="book8.jpg">
-            </div>
-            
-
-        </div>
-      </div>
-      <!-------------------------------- most wished in movies ---------------------------------->
-
-      <div class="movies-container">
-        <h2>Most wished for in Movies & TV</h2>
-        <div class="movies-pictures-container">
-            <div class="movies-pictures">
-                <img src="movie1.jpg">
-            </div>
-            <div class="movies-pictures">
-                <img src="movie2.jpg">
-            </div>
-            <div class="movies-pictures">
-                <img src="movie3.jpg">
-            </div>
-            <div class="movies-pictures">
-                <img src="movie4.jpg">
-            </div>
-            <div class="movies-pictures">
-                <img src="movie5.jpg">
-            </div>
-            <div class="movies-pictures">
-                <img src="movie6.jpg">
-            </div>
-            <div class="movies-pictures crop">
-                <img src="movie7.jpg">
-            </div>
-        </div>
-      </div>
-      <!----------------------------------- games --------------------------->
-
-      <div class="games-container">
-        <h2>Most wished for in Video Games</h2>
-        <div class="games-pictures-container">
-            <div class="movies-pictures">
-                <img src="game1.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game2.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game3.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game4.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game5.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game6.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game7.jpg">
-            </div>
-        </div>
-      </div>
-      <!------------------------------------------- new------------------->
-      <div class="nextdiv-container">
-            <div class="nextdiv">
-                    <h2>Shop activity trackers and smartwatches</h2>
+          </div>
+          <!------------------------------------------- new------------------->
+          <div class="nextdiv-container">
+                <div class="nextdiv">
+                        <h2>Shop activity trackers and smartwatches</h2>
+                        <div class="nextdiv-image-nextdiv">
+                            <div class="nextdiv-image">
+                                 <img src="nextimage1.jpg">
+                             </div>
+                             <p id="see-more4">Shop now</p>
+                        </div>
+                </div>
+                <div class="nextdiv">
+                    <h2>Upgrade your office </h2>
+                    <h2>furniture</h2>
                     <div class="nextdiv-image-nextdiv">
-                        <div class="nextdiv-image">
-                             <img src="nextimage1.jpg">
+                            <div class="nextdiv-image">
+                                <img src="nextimage4.jpg">
+                            </div>
+                            <p id="see-more4">Shop now</p>
+                    </div>
+                </div>
+                <div class="nextdiv">
+                    <h2>Personal Care under $25</h2>
+                    <div class="image-nested-image">
+                            <div class="nextdiv-image1">
+                                <img src="nextimage2.jpg">
+                            </div> 
+                            <p id="see-more3">Shop now</p>
+                    </div>
+                </div>
+                <div class="nextdiv">
+                    <h2>Gaming merchandise</h2>
+                    <div class="image-nested-image nextdiv1">
+                        <div class="image-nested-image">
+                            <div class="image-nested1">
+                                <img src="nextimage3.1.jpg">
+                                <p>Apparels</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img  src="nextimage3.2.jpg"  >
+                                <p>Hats</p> 
+                            </div>
+                            <div class="image-nested1">
+                                <img src="nextimage3.3.jpg" >
+                                <p>Action figures</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img src="nextimage3.4.jpg" >
+                                <p>Mug</p>
+                            </div>
+                            <p id="see-more">See more</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <!------------------------------------------ gifts    baby--------------------------------------------->
+    
+          <div class="baby-gifts-container">
+            <div class="bbtncontainer">
+                <button id="buttonleft3">
+                   <
+                </button>
+                <button id="buttonright3">
+                    >
+                </button>
+            </div>
+            <h2>Best Sellers in Beauty & Personal Care </h2>
+            <a href="#">Shop now</a>
+            <div class="baby-gifts">
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61tX1OamThL._AC_SY200_.jpg" alt="">
+    
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51bryY47IFL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61NFkX7td8L._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61pp+20Oo0L._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/71PXjjbQCzL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51iMh82b5UL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/41roS4Ps5RL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/71fizOWwhFL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51zgrgugoJL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51UYq7UwqrL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/71xMIZgC-TL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61pIL2maVKL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/612HeyYXOnL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51jcdwTt7nS._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61bLRVPWH7L._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61mZEOjHwKL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/61OaTkiZzAL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/41tFi33Pi6L._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/51DbQev1thL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="baby-gifts-parent">
+                    <div class="baby-gifts-image">
+                        <img src="https://m.media-amazon.com/images/I/71etIFqlwCL._AC_SY200_.jpg" alt="">
+                        
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+          </div>
+          <!--------------------------- deals under 25 ------------------------------->
+          <div class="deals-cotainer">
+            <h2 style="display: inline;">Deals Under $25 </h2> 
+            <a href="#">See more</a>
+            <div class="deals-nested">
+                <div class="deals-nested-parent">
+                    <div class="deals-image">
+                        <img src="deals1.jpg" alt="">
+                        <div class="under-picture">
+                            <span   id="first">30% off</span>
+                            <span id="sec" >Limited time deal</span>
+                            <div id="id">
+                                <span  id="third">$</span>
+                                <span id="fourth">24.99</span>
+                                <span id="fifth">List Price: $29.99</span>
+                            </div>
+                            <span id="sixth">
+                                ESV Journaling Bible (Cloth over Boa..
+                            </span>
                          </div>
-                         <p id="see-more4">Shop now</p>
-                    </div>
-            </div>
-            <div class="nextdiv">
-                <h2>Upgrade your office </h2>
-                <h2>furniture</h2>
-                <div class="nextdiv-image-nextdiv">
-                        <div class="nextdiv-image">
-                            <img src="nextimage4.jpg">
-                        </div>
-                        <p id="see-more4">Shop now</p>
-                </div>
-            </div>
-            <div class="nextdiv">
-                <h2>Personal Care under $25</h2>
-                <div class="image-nested-image">
-                        <div class="nextdiv-image1">
-                            <img src="nextimage2.jpg">
-                        </div> 
-                        <p id="see-more3">Shop now</p>
-                </div>
-            </div>
-            <div class="nextdiv">
-                <h2>Gaming merchandise</h2>
-                <div class="image-nested-image nextdiv1">
-                    <div class="image-nested-image">
-                        <div class="image-nested1">
-                            <img src="nextimage3.1.jpg">
-                            <p>Apparels</p>
-                        </div>
-                        <div class="image-nested2">
-                            <img  src="nextimage3.2.jpg"  >
-                            <p>Hats</p> 
-                        </div>
-                        <div class="image-nested1">
-                            <img src="nextimage3.3.jpg" >
-                            <p>Action figures</p>
-                        </div>
-                        <div class="image-nested2">
-                            <img src="nextimage3.4.jpg" >
-                            <p>Mug</p>
-                        </div>
-                        <p id="see-more">See more</p>
+                        
                     </div>
                 </div>
-            </div>
-      </div>
-      <!------------------------------------------ gifts    baby--------------------------------------------->
-
-      <div class="baby-gifts-container">
-        <h2>Popular Gifts in Baby </h2>
-        <a href="#">Shop now</a>
-        <div class="baby-gifts">
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts1.jpg" alt="">
-
+                <div class="deals-nested-parent">
+                    <div class="deals-image">
+                        <img src="deals2.jpg" alt="">
+                        <div class="under-picture">
+                            <span   id="first">30% off</span>
+                            <span id="sec" >Limited time deal</span>
+                            <div    id="id">
+                                <span  id="third">$</span>
+                                <span id="fourth">24.99</span>
+                                <span id="fifth">List Price: $29.99</span>
+                            </div>
+                            <span id="sixth">
+                                ESV Journaling Bible (Cloth over Boa..
+                            </span>
+                         </div>
+                    </div>
+                </div>
+                <div class="deals-nested-parent">
+                    <div class="deals-image">
+                        <img src="deals3.jpg" alt="">
+                        <div class="under-picture">
+                            <span   id="first">30% off</span>
+                            <span id="sec" >Limited time deal</span>
+                            <div    id="id">
+                                <span  id="third">$</span>
+                                <span id="fourth">24.99</span>
+                                <span id="fifth">List Price: $29.99</span>
+                            </div>
+                            <span id="sixth">
+                                ESV Journaling Bible (Cloth over Boa..
+                            </span>
+                         </div>
+                    </div>
+                </div>
+                <div class="deals-nested-parent">
+                    <div class="deals-image">
+                        <img src="deals5.jpg" alt="">
+                        <div class="under-picture">
+                            <span   id="first">30% off</span>
+                            <span id="sec" >Limited time deal</span>
+                            <div    id="id">
+                                <span  id="third">$</span>
+                                <span id="fourth">24.99</span>
+                                <span id="fifth">List Price: $29.99</span>
+                            </div>
+                            <span id="sixth">
+                                ESV Journaling Bible (Cloth over Boa..
+                            </span>
+                         </div>
+                    </div>
+                </div>
+                <div class="deals-nested-parent">
+                    <div class="deals-image">
+                        <img src="deals4.jpg" alt="">
+                        <div class="under-picture">
+                            <span   id="first">30% off</span>
+                            <span id="sec" >Limited time deal</span>
+                            <div    id="id">
+                                <span  id="third">$</span>
+                                <span id="fourth">24.99</span>
+                                <span id="fifth">List Price: $29.99</span>
+                            </div>
+                            <span id="sixth">
+                                ESV Journaling Bible (Cloth over Boa..
+                            </span>
+                         </div>
+                    </div>
                 </div>
             </div>
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts2.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts3.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts4.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts5.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="baby-gifts-parent">
-                <div class="baby-gifts-image">
-                    <img src="gifts6.jpg" alt="">
-                    
-                </div>
-            </div>
-
-
-
-        </div>
-      </div>
-      <!--------------------------- deals under 25 ------------------------------->
-      <div class="deals-cotainer">
-        <h2 style="display: inline;">Deals Under $25 </h2> 
-        <a href="#">See more</a>
-        <div class="deals-nested">
-            <div class="deals-nested-parent">
-                <div class="deals-image">
-                    <img src="deals1.jpg" alt="">
-                    <div class="under-picture">
-                        <span   id="first">30% off</span>
-                        <span id="sec" >Limited time deal</span>
-                        <div id="id">
-                            <span  id="third">$</span>
-                            <span id="fourth">24.99</span>
-                            <span id="fifth">List Price: $29.99</span>
+            <!--------------------------- new1 ------------------------------------->
+          </div>
+          <div class="nextdiv-container1">
+                <div class="nextdiv">
+                        <h2>Player's paradise starts</h2>
+                        <h2> here</h2>
+                        <div class="nextdiv-image-nextdiv">
+                            <div class="nextdiv-image">
+                                <img src="new1.jpg">
+                            </div>
+                            <p id="see-more4">
+                                Shop video games</p>
                         </div>
-                        <span id="sixth">
-                            ESV Journaling Bible (Cloth over Boa..
-                        </span>
-                     </div>
-                    
                 </div>
-            </div>
-            <div class="deals-nested-parent">
-                <div class="deals-image">
-                    <img src="deals2.jpg" alt="">
-                    <div class="under-picture">
-                        <span   id="first">30% off</span>
-                        <span id="sec" >Limited time deal</span>
-                        <div    id="id">
-                            <span  id="third">$</span>
-                            <span id="fourth">24.99</span>
-                            <span id="fifth">List Price: $29.99</span>
-                        </div>
-                        <span id="sixth">
-                            ESV Journaling Bible (Cloth over Boa..
-                        </span>
-                     </div>
-                </div>
-            </div>
-            <div class="deals-nested-parent">
-                <div class="deals-image">
-                    <img src="deals3.jpg" alt="">
-                    <div class="under-picture">
-                        <span   id="first">30% off</span>
-                        <span id="sec" >Limited time deal</span>
-                        <div    id="id">
-                            <span  id="third">$</span>
-                            <span id="fourth">24.99</span>
-                            <span id="fifth">List Price: $29.99</span>
-                        </div>
-                        <span id="sixth">
-                            ESV Journaling Bible (Cloth over Boa..
-                        </span>
-                     </div>
-                </div>
-            </div>
-            <div class="deals-nested-parent">
-                <div class="deals-image">
-                    <img src="deals5.jpg" alt="">
-                    <div class="under-picture">
-                        <span   id="first">30% off</span>
-                        <span id="sec" >Limited time deal</span>
-                        <div    id="id">
-                            <span  id="third">$</span>
-                            <span id="fourth">24.99</span>
-                            <span id="fifth">List Price: $29.99</span>
-                        </div>
-                        <span id="sixth">
-                            ESV Journaling Bible (Cloth over Boa..
-                        </span>
-                     </div>
-                </div>
-            </div>
-            <div class="deals-nested-parent">
-                <div class="deals-image">
-                    <img src="deals4.jpg" alt="">
-                    <div class="under-picture">
-                        <span   id="first">30% off</span>
-                        <span id="sec" >Limited time deal</span>
-                        <div    id="id">
-                            <span  id="third">$</span>
-                            <span id="fourth">24.99</span>
-                            <span id="fifth">List Price: $29.99</span>
-                        </div>
-                        <span id="sixth">
-                            ESV Journaling Bible (Cloth over Boa..
-                        </span>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <!--------------------------- new1 ------------------------------------->
-      </div>
-      <div class="nextdiv-container1">
-            <div class="nextdiv">
-                    <h2>Player's paradise starts</h2>
-                    <h2> here</h2>
+                <div class="nextdiv">
+                    <h2>Creating business </h2>
+                    <h2>solutions</h2>
                     <div class="nextdiv-image-nextdiv">
-                        <div class="nextdiv-image">
-                            <img src="new1.jpg">
-                        </div>
-                        <p id="see-more4">
-                            Shop video games</p>
+                            <div class="nextdiv-image">
+                                <img src="new2.jpg">
+                            </div>
+                            <p id="see-more4">
+                               See more software products
+                                </p>
                     </div>
-            </div>
-            <div class="nextdiv">
-                <h2>Creating business </h2>
-                <h2>solutions</h2>
-                <div class="nextdiv-image-nextdiv">
-                        <div class="nextdiv-image">
-                            <img src="new2.jpg">
-                        </div>
-                        <p id="see-more4">
-                           See more software products
-                            </p>
                 </div>
-            </div>
-            <div class="nextdiv">
-                <h2>A whole new way to work</h2>
-                <div class="image-nested-image">
-                        <div class="nextdiv-image1">
-                            <img src="new3.jpg">
-                        </div>
-                        <p id="see-more3">
-                           Shop personal computers</p>
-                </div>
-            </div>
-            <div class="nextdiv">
-                <h2>Warm & welcoming decor</h2>
-                <div class="image-nested-image nextdiv1">
+                <div class="nextdiv">
+                    <h2>A whole new way to work</h2>
                     <div class="image-nested-image">
-                        <div class="image-nested1">
-                            <img src="new4.1.jpg">
-                            <p>Wreaths & garlands</p>
-                        </div>
-                        <div class="image-nested2">
-                            <img  src="new4.2.jpg"  >
-                            <p>Outdoor decor</p> 
-                        </div>
-                        <div class="image-nested1">
-                            <img src="new4.3.jpg" >
-                            <p>Pillows & throws</p>
-                        </div>
-                        <div class="image-nested2">
-                            <img src="new4.4.jpg" >
-                            <p>Wall art & mirrors</p>
-                        </div>
-                        <p id="see-more">Shop more fall finds</p>
+                            <div class="nextdiv-image1">
+                                <img src="new3.jpg">
+                            </div>
+                            <p id="see-more3">
+                               Shop personal computers</p>
                     </div>
                 </div>
+                <div class="nextdiv id">
+                    <h2>Warm & welcoming decor</h2>
+                    <div class="image-nested-image nextdiv1">
+                        <div class="image-nested-image">
+                            <div class="image-nested1">
+                                <img src="new4.1.jpg">
+                                <p>Wreaths & garlands</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img  src="new4.2.jpg"  >
+                                <p>Outdoor decor</p> 
+                            </div>
+                            <div class="image-nested1">
+                                <img src="new4.3.jpg" >
+                                <p>Pillows & throws</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img src="new4.4.jpg" >
+                                <p>Wall art & mirrors</p>
+                            </div>
+                            <p id="see-more">Shop more fall finds</p>
+                        </div>
+                    </div>
+                </div>
+         </div>
+         <!-- -------------------------------books1----------------------------- -->
+    
+         <div class="books-container1">
+            <div class="bbtncontainer">
+                <button id="buttonleft3">
+                   <
+                </button>
+                <button id="buttonright3">
+                    >
+                </button>
             </div>
-     </div>
-     <!-- -------------------------------books1----------------------------- -->
-
-     <div class="books-container1">
-        <h2>Top Sellers in Books for you</h2>
-        <div class="books-heading">
-            <div class="books">
-                <img src="books1.jpg">
+            <h2>Top Sellers in Books for you</h2>
+            <div class="books-heading">
+                <div class="books">
+                    <img src="books1.jpg">
+                </div>
+                <div class="books">
+                    <img src="books2.jpg">
+                </div>
+                <div class="books">
+                    <img src="books3.jpg">
+                </div>
+                <div class="books">
+                    <img src="books4.jpg">
+                </div>
+                <div class="books">
+                    <img src="books5.jpg">
+                </div>
+                <div class="books">
+                    <img src="books6.jpg">
+                </div>
+                <div class="books">
+                    <img src="books7.jpg">
+                </div>
+                <div class="books">
+                    <img src="books8.jpg">
+                </div>
             </div>
-            <div class="books">
-                <img src="books2.jpg">
+          </div>
+    
+          <!--------------------------------- Popular----------------------------- -->
+    
+          <div class="popular-container">
+            <h2>Popular items this season</h2>
+            <div class="games-pictures-container">
+                <div class="movies-pictures">
+                    <img src="popular1.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="popular2.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="popular3.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="popular4.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="popular5.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="popular6.jpg">
+                </div>
+                <div class="games-pictures">
+                    <img src="game7.jpg">
+                </div>
             </div>
-            <div class="books">
-                <img src="books3.jpg">
-            </div>
-            <div class="books">
-                <img src="books4.jpg">
-            </div>
-            <div class="books">
-                <img src="books5.jpg">
-            </div>
-            <div class="books">
-                <img src="books6.jpg">
-            </div>
-            <div class="books">
-                <img src="books7.jpg">
-            </div>
-            <div class="books">
-                <img src="books8.jpg">
-            </div>
-            
-
-        </div>
+          </div>
       </div>
-
-      <!--------------------------------- Popular----------------------------- -->
-
-      <div class="popular-container">
-        <h2>Popular items this season</h2>
-        <div class="games-pictures-container">
-            <div class="movies-pictures">
-                <img src="popular1.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="popular2.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="popular3.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="popular4.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="popular5.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="popular6.jpg">
-            </div>
-            <div class="games-pictures">
-                <img src="game7.jpg">
-            </div>
-        </div>
-      </div>
+      
     </main>
     <div class="sign-up">
         <div class="title">
             See personalized recommendations
         </div>
         <div class="signin">
-            <a href="#">sign in</a>
+            <a href="/otherhtml/signin.html">sign in</a>
         </div>
         <div class="fotter">
             New customer? <a href="#"> Start here</a> 
@@ -1101,5 +1414,6 @@
             <span>© 1996-2024, Amazon.com, Inc. or its affiliates</span>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
