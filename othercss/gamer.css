@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/**************************************** box1 ************************************/
+.nav-logo img{
+    height: 60px;
+    width: 100px;
+}
+.nav-logo{
+    display: flex;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/*****************************************box 2 ******************************8*/
+
+.location{
+    padding: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    margin-left: 14px;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+.add-second{
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#hello{
+    font-size: 12px;
+}
+#acc{
+    font-size: 14px;
+    font-weight: 700;
+}
+/************************************** box3 ****************************************/
+
+.nav-search{
+    display: flex;
+    width: 585px; 
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    border: 1.5px solid transparent; 
+    outline: 1.5px solid transparent;
+
+
+}
+.lang-icon{
+    width: 21.6px;
+    height: 16.2px;
+}
+.lang-icon img{
+    width: 100%;
+    height: 100%;
+}
+.language{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: end;
+}
+.dig{
+    width: 240px;
+    height: 500px;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 10;
+    border-radius: 4px;
+    display: none;
+}
+.active{
+    display: block;
+}
+#change{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+#change a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left:1rem ;
+    color: #007185;
+}
+#hrf{
+    margin-top: 20px;
+}
+#you{
+ font-size: 14px;
+ margin-top: 2rem;
+ margin-left: 10px;
+}
+#us{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#currency{
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: .5rem;
+}
+#currency a{
+    text-decoration: none;
+    color: rgb(21, 141, 189);
+    padding-left: 1rem;
+}
+#us a{
+    text-decoration: none;
+    color:  rgb(21, 141, 189);
+    padding-left: 3rem;
+}
+.dig p,ul{
+    color: black;
+}
+.dig ul{
+    list-style:none;
+}
+.language p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.cart-icon i {
+    font-size: 30px;
+  }
+  .cart-icon{
+      font-size: 14px;
+      font-weight: 700;
+      padding: 4px;
+  }
+  
+
+.accounts-list{
+    padding: 4px;
+}
+.account-container{
+    position: relative;
+}
+.under-accounts{
+    width: 470px;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    z-index: 1;
+    right: 3rem;
+    top: 8.8%;
+    padding: 20px;
+    display: none;
+}
+.active-underacc{
+    display: block;
+}
+.under-accounts-singin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.under-accounts-singin p{
+    color: #000;
+    font-size: 12px;
+}
+.under-accounts-singin a {
+    text-decoration: none;
+    color: #007185;
+}
+#underaccbtn{
+    padding: 5px 0;
+    width: 200px;
+    background-color: #FFCE52;
+    border: 1px solid #febd68;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+.under-acc-list-container{
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+   
+}
+.list-cont-two{
+    border-left: 1px solid gray;
+}
+.list-cont-ul{
+    list-style: none;
+}
+.list-cont-ul li{
+    font-size: 13px;
+    margin-top: .5rem;
+    color: rgb(53, 50, 50);
+}
+.list-cont-ul li:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.order{
+    padding: 4px;
+}
+   .nav-search:focus-within{
+   outline: 2px solid orange; 
+   border:2px solid orange ;
+  
+
+
+}    
+.search-icon{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 19px; 
+    color: #373a3a;
+    background-color:#febd68;
+
+}
+.search-icon i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    
+}
+.searchoption{
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 40px;
+    width: 50px;
+    background-color: #E6E6E6;
+    text-align: center;
+    
+}
+/************************* hamburger **************************/
+.hamburgers-items{
+    display:none;
+    margin: 0 1.5rem;
+}
+.hamburgers-icon{
+    width: 30px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     cursor: pointer;
+
+}
+.hamburgers-icon span{
+    width: 100%;
+    background-color:rgb(255, 255, 255) ;
+    height: 2px;
+}
+.hamburger-value{
+    position:absolute;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    top: 0;
+    background-color: #E5F4E3;
+    color: black;
+    border-radius: 5px;
+    padding: 1px;
+    display: none;
+}
+.hamburger-value p {
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.hamburger-value p:hover{
+    background-color: #abd4db;
+    border-color: black;
+}
+.nav-right-group{
+    display: flex;
+}
+
+/************************************** under navbar************************/
+.undernavbar{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.slide-bar-container{
+    
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transform: translateX(-100%);
+    display: flex;
+}   
+#side-bar-close{
+    align-self: flex-start;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+} 
+.side-bar-items{
+    color: black;
+    padding-left: 20px;
+}
+.side-bar-items-wrapper{
+    height: 100%;
+    overflow: auto;
+}
+.side-bar-items h3{
+   margin-top: 1rem;
+}
+.side-bar-items p{
+    margin-top: 1rem;
+}
+
+.active-sidebar{
+    transform: translateX(0%);  
+}
+.slide-bar{
+    width: 360px;
+    height: 100%;
+    background-color: white;
+}
+.side-bar-top{
+    /* color: white; */
+    display: flex;
+    background-color: #131A22;
+    height: 50px;
+    align-items: center;
+    
+}
+.menubar{
+    height: 35px;
+    width: 58px;
+    padding: 0 9px 0 9px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menubar p {
+    font-size: 14px;
+    font-weight: 700;
+}
+.menubar i {
+    font-size: 20px;
+    padding-right: 5px;
+
+}
+
+
+.todays-deal a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+    
+
+}
+
+/****************************************** herosection ***************************************/
+#hero-cont{
+    display: flex;
+}
+#spacetaker{
+    height: 604px;
+    width: 100%;
+    background-color: #e2e7e6;
+}
+#spacetakera{
+    height: 604px;
+    width: 100%;
+    background-color: #e2e7e6;
+}
+.herosection{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 1345px;
+    max-width: 1345px;
+}
+.hero-images img{
+    height: 600px;
+    width: 1343px;
+}
+.hero-images{
+    transition: 1s;
+}
+.hero-images-container{
+    display: flex;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+.btn-container button{
+    height: 200px;
+    width: 50px;
+    background-color: transparent;
+    font-size: 50px;
+    border: none;
+}
+.btn-container button:focus{
+    
+    border: 1px solid black;
+}
+/* ********************** hero *************************** */
+.gamerpic img{
+    width: 100%;
+}
+.gamerpic{
+    padding:1rem;
+}
+#hero-sec{
+    display:flex;
+    justify-content: center;
+}
+/* ******************************main ***************** */
+.gamer-heading{
+    display:flex;
+    justify-content:center;
+}
+.gamer-heading h1{
+    font-size:28px;
+}
+.grid-pic-item{
+    text-align: center;
+}
+.grid-pic-item img {
+    width: 80%;
+}
+.grid-picture-container{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 300px 300px 300px;
+    margin-bottom:4rem;
+    row-gap: .5rem;
+}
+/*************************************** footer **************/
+.middle ul{
+    width: 216px;
+}
+.middle{
+    padding-bottom: 2rem;
+}

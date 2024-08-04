@@ -1,0 +1,211 @@
+@media(max-width:2560px){  
+    .grid-pic-item img {
+        width: 256px;
+    }
+    .grid-picture-container{
+        grid-template-columns: 320px 320px 320px 320px 320px;
+        grid-template-rows: 300px 300px 300px;
+    }
+    #main-sec{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+}
+@media(max-width:1600px){
+    .grid-pic-item img {
+        width: 80%;
+    }
+    .grid-picture-container{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 33% 33% 33%;
+    }  
+    .gamerpic{
+        width: 97%;
+    } 
+}
+@media(max-width:1060px){
+    #table-data{
+        width: 100px;
+    }
+}
+@media(max-width:1024px){
+    #table-data{
+        width: 75px;
+    }
+    .nav-search{
+        width: 500px;
+    }
+    #hello{
+        font-size: 10px;
+    }
+    #acc{
+        font-size: 12px;
+    }
+    .cart-icon{
+        font-size: 12px;
+    }
+}
+@media(max-width:768px){ 
+     #row-a{
+       max-width: 770px;
+       margin-bottom: 2rem;
+       flex-wrap: wrap;
+     }
+     #row-b{
+       max-width: 770px;
+       margin-bottom: 2rem;
+       flex-wrap: wrap;
+     }
+     #row-c{
+       max-width: 770px;
+       margin-bottom: 2rem;
+       flex-wrap: wrap;
+     }
+     #row-d{
+       max-width: 770px;
+       margin-bottom: 2rem;
+       flex-wrap: wrap;
+     }
+     .middle{
+        flex-wrap: wrap;
+     }
+     .div{
+        flex-wrap: wrap;
+        padding: 1rem;
+     }
+     .english-container{
+        flex-wrap:wrap;
+     }
+     .nav-right-group{
+        display:none;
+     }
+     .hamburger-value.active{
+        display: block;
+     }
+    .hamburgers-items{
+        display:block;
+    }
+    .lang-container{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+}
+@media(max-width:700px){
+    .nav-logo img {
+        width: 90px;
+        height: 50px;
+    }
+    .todays-deal a{
+        font-size: 13px;
+    }
+    .menubar p{
+        font-size: 13px;
+    }
+    .menubar i{
+        font-size: 15px;
+    }
+    .nav-search{
+        height: 35px;
+    }
+    .searchoption{
+        height: 35px;
+    }
+}
+@media(max-width:600px){
+    .nav-logo img{
+        width: 90px;
+    }
+    .grid-pic-item p{
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    .grid-pic-item p{
+        font-size: 13px;
+    }
+    .nav-logo img{
+        width:80px ;
+        height: 45px;
+    }
+    .todays-deal a{
+        font-size: 10px;
+    }
+    .menubar p{
+        font-size: 10px;
+    }
+    .menubar i{
+        font-size: 11px;
+        padding-right: 2px;
+    }
+    .nav-search{
+        height: 30px;
+    }
+    .searchoption{
+        height: 30px;
+    }
+    .hamburgers-icon{
+        width: 25px;
+        height: 20px;
+    }
+}
+@media(max-width:450px){
+    .grid-pic-item p{
+        font-size: 12px;
+    }
+    .nav-logo img{
+        width: 70px;
+        height: 40px;
+    }
+     #English{
+        margin: 1rem;
+     }
+     #Dollar{
+        margin: 1rem;
+     }
+     #Us{
+        margin: 1rem;
+     }
+     .todays-deal a{
+        font-size: 9px;
+        padding: 5px;
+    }
+    .menubar{
+        width: 30px;
+    }
+    .menubar p{
+        font-size: 9px;
+    }
+    .menubar i{
+        font-size: 9px;
+        padding-right: 2px;
+    }
+    .nav-search{
+        height: 28px;
+    }
+    .searchoption{
+        height:28px;
+    }
+    .hamburgers-icon{
+        width: 20px;
+        height: 18px;
+    }
+     
+}
+@media(max-width:375px){  
+    .grid-pic-item p{
+        font-size: 11px;
+    } 
+}
+@media(max-width:330px){
+    .grid-pic-item p{
+        font-size: 10px;
+    }      
+}
+@media(max-width:280px){   
+    .grid-pic-item p{
+        font-size: 8px;
+    } 
+}

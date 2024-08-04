@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .amazonlogo img{
     height: 50px;
     width: 120px;
@@ -14,7 +18,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-.signin-container{
+.createacc-container{
     border: 1px solid rgb(199, 192, 192);
     padding: 20px;
     border-radius: 10px;
@@ -46,12 +50,25 @@ body{
 .input-container p{
     font-size: 13px;
     font-weight: 700;
+}
+#pata{
+    font-weight: 100;
+    color: gray;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+#paga{
+    padding-left: 5px;
     margin: 0;
 }
-.signin-container h1{
+#pafa{
+    padding-left: 5px;
+}
+.create-container h1{
     font-size: 28px;
     margin-top:0 ;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: turquoise;
 }
 .mssg p{
     font-size: 12px;
@@ -71,6 +88,9 @@ body{
 .help{
     margin: 1.5rem 0;
 }
+.shop{
+    margin-top: 3rem;
+}
 .shop a{
     font-size: 12px;
     color: #0066C0;
@@ -81,20 +101,6 @@ body{
     font-weight: 700;
     font-size: 12px;
     margin:0;
-}
-.create{
-    text-align: center;
-}
-.create a{
-    border:1px solid rgb(199, 192, 192);
-    border-radius: 8px;
-    text-decoration: none;
-    color: rgb(70, 66, 66);;
-    padding:5px 5rem;
-}
-.create h5{
-    margin-top: 2rem;
-    color: rgb(90, 86, 86);
 }
 #footer{
     margin-top: 4rem;

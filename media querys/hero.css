@@ -107,17 +107,61 @@
     
 }
 
-
-@media(max-width:1440px){    
+@media(max-width:1600px){
+    .hero-images img{
+        height: 600px;
+        width: 1600px;
+    }
+    #hero-cont{
+        display: flex;
+    }
+    #spacetaker{
+        display: none;
+    }
+    #spacetakera{
+       display:none;
+    }
+    .herosection{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        min-width: 100%;
+    }  
+}
+@media(max-width:1440px){
+    #hero-cont{
+        display: flex;
+    }
+    #spacetaker{
+        display: none;
+    }
+    #spacetakera{
+       display:none;
+    }
+    .herosection{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        min-width: 100%;
+    }    
     .under-accounts{
         top: 6.5%;
+    }
+    .image-select{
+        padding-top: 20px;
+        background-color: white;
+        width: 318px;
+        margin-top: 10px;
+        height: 400px;
     }
 
 /*********************************** best seller in books ****************************/
 
 .books-container{
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 95%;
     height: 281.5px;
     padding-right: 20px;
     padding-left: 20px;
@@ -144,13 +188,13 @@
 .movies-container{
     padding-right: 20px;
     padding-left: 20px;
-    max-width: 1250px;
+    max-width: 95%;
     margin: 0 auto;
 }
 /*************************** games *************************/
 
 .games-container{
-    max-width: 1250px;
+    max-width: 95%;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -158,10 +202,10 @@
 
 .nextdiv-container{
     left: -20px;
-    max-width: 1350px; 
+    max-width: 1370px; 
 }
 .nextdiv{
-    width: 312px;
+    width: 332px;
 }
 .nextdiv-image img{
     height: 230px;
@@ -173,7 +217,7 @@
 /****************************baby   gifts*****************************/
 
 .baby-gifts-container{
-    max-width: 1250px;
+    max-width: 95%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -183,18 +227,18 @@
 
 .deals-cotainer{
     height: 366px;
-    width: 1300px;
+    width: 102%;
 }  
 /*********************************** new1******************** */
 
 .nextdiv-container1{
-    max-width: 1320px;
+    max-width: 1370px;
 }
 
 /*********************************** book1*********************************** */
 
 .books-container1{
-    max-width: 1250px;
+    max-width: 95%;
      padding-left: 20px;
     padding-right: 20px; 
 }
@@ -202,7 +246,7 @@
 /********************************popular****************************/
 
 .popular-container{
-    max-width: 1250px;
+    max-width: 95%;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -214,29 +258,124 @@
 
 
 }
-@media(max-width:1340px){
+@media(max-width:1400px){
+    /************** imageselect ***********/
+    /* .image-nesteda img{
+        width: 110px;
+    }
+    .image-nestedb img{
+        width: 110px;
+    }
+    .image-nested3 img{
+        width: 239px;
+        left: 10px;
+        object-fit: cover;
+    }
+    .image-nested4 img{
+        width: 245px;
+        left: 10px;
+    }
+    .image-nested5 img{
+
+    }
+    .chappal img{
+
+    } */
+    #spacetaker{
+        height: 604px;
+        width: 0;
+        background-color: #e2e7e6;
+    }
+    #spacetakera{
+        height: 604px;
+        width: 0;
+        background-color: #e2e7e6;
+    }
+    .herosection{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        min-width: 100%;
+        max-width: 1440px;
+    }
+    .under-accounts{
+        top: 6.5%;
+    }
+    /* .image-select{
+        padding-top: 20px;
+        background-color: white;
+        width: 318px;
+        margin-top: 10px;
+        height: 400px;
+    } */
+
+/*********************************** best seller in books ****************************/
+
+/******************************** movies ***************************************/
+
+/*************************** games *************************/
+
+/* *********************************    new******************** */
+
+.nextdiv-container{
+    left: -20px;
+    max-width: 1370px; 
+}
+.nextdiv{
+    width: 320px;
+}
+.nextdiv-image img{
+    height: 230px;
+}
+.nextdiv-image1 img{
+    width: 250px;
+    height: 280px;
+}
+/****************************baby   gifts*****************************/
+
+/*********************************deals ***************************/
+
+
+
+.nextdiv-container1{
+    max-width: 1370px;
+}
+
+}
+@media(max-width:1360px){
+    .image-select-container{
+        grid-template-columns: 320px 320px 320px 320px;
+        grid-template-rows: 400px 400px;
+        row-gap: 2.5rem;
+        margin-bottom: 3rem;
+    } 
+    #spacetaker{
+        height: 604px;
+        width: 0;
+        background-color: #e2e7e6;
+    }
+    #spacetakera{
+        height: 604px;
+        width: 0;
+        background-color: #e2e7e6;
+    }
     .under-accounts{
         top: 6.5%;
         z-index: 1;
     }
- 
-    /*********************************** best seller in books ****************************/
-    
-    .books-container{
-        max-width: 1200px;
-    }
-    /******************************** movies ***************************************/
-    
-    .movies-container{
-        max-width: 1200px;   
-    }
-    /*************************** games *************************/
-    
-    .games-container{
-        max-width: 1200px;
-        padding-right: 20px;
-    }
-    /* *********************************    new******************** */
+    .image-select{
+        padding-top: 20px;
+        background-color: white;
+        width: 300px;
+        margin-top: 10px;
+        height: 400px;
+    } 
+    /* .image-nested2 img{
+          width: 120px;
+          height: 115px;      
+     } */
+
     
     .nextdiv-container{
         max-width: 1300px;   
@@ -246,51 +385,69 @@
         height: 230px;
         width: 250px;
     }
+    .nextdiv{
+        width: 300px;
+    }
     .nextdiv-image1 img{
         width: 250px;
         height: 280px;
     }
-    /****************************baby   gifts*****************************/
-    
-    .baby-gifts-container{
-        max-width: 1200px;
-    }
-   
-    /*********************************deals ***************************/
-    
-    
-    
-    .deals-cotainer{
-        height: 366px;
-        width: 1245px;
-    }
-   
-    /*********************************** new1******************** */
-    
-    .nextdiv-container1{
+     .nextdiv-container1{
         display: flex;
         max-width: 1280px;
         justify-content: space-evenly;
         position: relative;
         top: 140px;
         left: -22px;
+        gap: .9rem;
         flex-wrap: wrap;
     }
-    /*********************************** book1*********************************** */
     
-    .books-container1{
-        max-width: 1200px;
-    }
-    
-    /********************************popular****************************/
-    
-    .popular-container{
-        max-width: 1200px;
-        padding-right: 20px;
-    }  
-
 }
 @media(max-width:1280px){
+     /************** imageselect ***********/
+     .image-select-container{
+        grid-template-columns: 305px 305px 305px 305px;
+        grid-template-rows: 400px 400px;
+    } 
+     .image-nesteda{
+        width: 100px;
+     }
+     .image-nestedb{
+        width: 101px;
+     }
+     .image-nesteda img{
+        width: 120px;
+        right: 10px;
+        object-fit: contain;
+    }
+    .image-nestedb img{
+        width: 120px;
+        object-fit: contain;
+    }
+    .image-nested3 img{
+        width: 210px;
+        left: 35px;
+        object-fit: cover;
+    }
+    .image-nested4 img{
+        width: 235px;
+        left: 10px;
+    }
+    .image-nested5 img{
+
+    }
+    .chappal img{
+
+    }
+    .image-select{
+        padding-top: 20px;
+        background-color: white;
+        width: 290px;
+        margin-top: 10px;
+        margin-left:.7rem ;
+        height: 400px;
+    }
     .hero-images img{
         height: 600px;
         width: 1440px;
@@ -303,25 +460,6 @@
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    
-    /*********************************** best seller in books ****************************/
-    
-    .books-container{
-        max-width: 1100px;
-    }
-    /******************************** movies ***************************************/
-    
-    .movies-container{
-        max-width: 1100px;   
-    }
-    /*************************** games *************************/
-    
-    .games-container{
-        max-width: 1100px;
-        padding-right: 20px;
-    }
-    /* *********************************    new******************** */
-    
     .nextdiv-container{
         left: -20px;
         max-width: 1300px;
@@ -330,27 +468,13 @@
         height: 200px;
         width: 230px;
     }
+    .nextdiv{
+        width: 274px;
+    }
     .nextdiv-image1 img{
         width: 240px;
         height: 270px;
     }
-    /****************************baby   gifts*****************************/
-    
-    .baby-gifts-container{
-        max-width: 1100px;
-    }
-   
-    /*********************************deals ***************************/
-    
-    
-    
-    .deals-cotainer{
-        height: 366px;
-        width: 1145px;
-    }
-   
-    /*********************************** new1******************** */
-    
     .nextdiv-container1{
         max-width: 1280px;
         flex-wrap: wrap;
@@ -367,20 +491,87 @@
         position: relative;
         left: 15px;
     }
-    /*********************************** book1*********************************** */
-    
-    .books-container1{
-        max-width: 1100px;
+}
+@media(max-width:1230px){
+    #image-select-four{
+        display:none;
     }
-    
-    /********************************popular****************************/
-    
-    .popular-container{
-        max-width: 1100px;
-        padding-right: 20px;
-    }  
+    #image-select-five{
+        display:none;
+    }
+    .image-select-container{
+        grid-template-columns: 350px 350px 350px ;
+        grid-template-rows: 400px 400px;
+        gap: 2rem;
+        row-gap: 3rem;
+    } 
+    .image-select{
+        width: 350px;
+    }
+    .image-nesteda{
+        width: 120px;
+     }
+     .image-nestedb{
+        width: 121px;
+     }
+     .image-nesteda img{
+        width: 120px;
+        right: 10px;
+        object-fit: cover;
+    }
+    .image-nestedb img{
+        width: 120px;
+        object-fit: cover;
+    }
+    .image-nested3 img{
+        width: 290px;
+        object-fit: cover;
+    }
+    .image-nested4 img{
+        width: 235px;
+        left: 10px;
+    }
 }
 @media(max-width:1180px){
+    .image-select-container{
+        grid-template-columns: 340px 340px 340px ;
+        grid-template-rows: 400px 400px;
+        gap: 2rem;
+        row-gap: 3rem;
+    }
+    .image-nesteda{
+        width: 100px;
+     }
+     .image-nestedb{
+        width: 101px;
+     }
+     .image-nesteda img{
+        width: 110px;
+    }
+    .image-nestedb img{
+        width: 110px;
+    }
+    .image-nested3 img{
+        width: 250px;
+        object-fit: cover;
+        left: 0;
+    }
+    .image-nested4 img{
+        width: 235px;
+        left: 10px;
+    }
+    .image-nested5 img{
+
+    }
+    .chappal img{
+
+    }
+    .image-select{
+        width: 330px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .hero-images img{
         height: 600px;
         width: 1440px;
@@ -393,20 +584,10 @@
     
     /*********************************** best seller in books ****************************/
     
-    .books-container{
-        max-width: 1000px;
-    }
     /******************************** movies ***************************************/
     
-    .movies-container{
-        max-width: 1000px;   
-    }
     /*************************** games *************************/
     
-    .games-container{
-        max-width: 1000px;
-        padding-right: 20px;
-    }
     /* *********************************    new******************** */
     
     .nextdiv-container{
@@ -445,19 +626,8 @@
         left: 12px;
     }
     /****************************baby   gifts*****************************/
-    
-    .baby-gifts-container{
-        max-width: 1000px;
-    }
    
     /*********************************deals ***************************/
-    
-    
-    
-    .deals-cotainer{
-        height: 366px;
-        width: 1045px;
-    }
     .deals-image img{
         width: 160px;
         height: 190px;
@@ -484,12 +654,6 @@
     }
     /*********************************** book1*********************************** */
     
-    .books-container1{
-        max-width: 1000px;
-        height: 281.5px;
-        /* left: 18px; */
-        overflow: auto;
-    }
     
     /********************************popular****************************/
     
@@ -497,216 +661,107 @@
         position: relative;
         bottom: 120px;
         background-color: white;
-        max-width: 1000px;
         padding-right: 20px;
         height: 281.5px;
         /* left: 19px; */
         overflow: auto;
     }
 }
-
-@media(max-width:1060px){
-    .hero-images img{
-        height: 600px;
-        width: 1440px;
+@media(max-width:1100px){
+    .image-select-container{
+        grid-template-columns: repeat(3,320px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 1rem;
+        row-gap: 3rem;
     }
-    .space{
-        position: relative;
-        /* top: -60px; */
+    .image-nesteda{
+        width: 100px;
+     }
+     .image-nestedb{
+        width: 101px;
+     }
+     .image-nesteda img{
+        width: 110px;
     }
-    
-    .image-nested1 p{
-        font-size: 12px;
-        padding-left: 20px;
-    
-    }
-    .image-nested1 img{
-       position: relative;
-         width: 130px;
-         height: 115px;
-         left: 10px;
-          object-fit:none;  
-         
-          
-    }
-    .image-nested2 p{
-        font-size: 12px;
-        position: relative;
-        left: 29px;
-        
-    
-    }
-    .image-nested2 img{
-       position: relative;
-         width: 120px;
-         height: 115px;
-         left: 30px; 
-          object-fit:none;  
-         
+    .image-nestedb img{
+        width: 110px;
     }
     .image-nested3 img{
-        width: 249px;
-        height: 300px;
-        position: relative;
-        left: 25px;
-        object-fit: none;
-    }
-    .chappal img{
+        width: 250px;
         object-fit: cover;
-        width: 280px;
-        height: 152px;
-        position: relative;
-        left: 10px;
-        top: 38px;
-        margin-bottom: 38px;
-    }
-    .chappal p{
-        padding: 4px;
-        background-color: #CC0C39;
-        display: inline-block;
-        color: white;
-        font-size: 12px;
-        border-radius: 2px;
-    }
-    .chappal span{
-        font-size: 12px;
-        color: #CC0C39;
-        font-weight: bolder;
-    }
-    .chappal div{
-        font-size: 13px;
-    }
-    #move{
-        position: relative;
-        left: 11px;
-        top: 40px;
+        left: 0;
     }
     .image-nested4 img{
-        width: 255px;
-        height: 172px;
-        object-fit: none;
-        position: relative;
-        left: 20px;
-    }
-    .image-nested4 p{
-        position: relative;
-        bottom: 8px;
-        left: 19px;
-    }
-    .image-nested5 p{
-        position: relative;
-        bottom: 16px;
-        left: 4px;
+        width: 235px;
+        left: 10px;
     }
     .image-nested5 img{
-        width: 82px;
-        height: 75px;
-        object-fit: none;
-        position: relative;
-       left: -2px;
-       
-       top: -35px;
-        
+
     }
-    #move1{
-        left: 5px;
-    }
-    #move2{
-        left: -10px;
-    }
-    .imagenested5p{
-        display: flex;
-        justify-content: space-evenly;
-        width: 300px;
-    }
-     .image-nested5 img{
-       position: relative;
-       top: -14px;
-    } 
-    
-    
-    .image-nested-image{
-        display: flex;
-        
+    .chappal img{
         width: 250px;
-        height: 350px;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    } 
+        object-fit: contain;
+    }
     .image-select{
-        padding-top: 20px;
-        background-color: white;
         width: 310px;
-        margin-top: 10px;
-        height: 400px;
-        
-    }
-    .image-select h2{
-        padding-bottom: 20px;
-        padding-left: 20px;
-        font-size: 18px;
-    
-    }
-    #see-more{
-        font-size: 13px;
-        color: #007185;
-        position:relative;
-         left: 17px; 
-        top: 9px;
-    } 
-    #see-more1{
-        font-size: 13px;
-        color: #007185;
-        position:relative;
-         left: 17px; 
-        top: 15px;
-    } 
-    #see-more2{
-        font-size: 13px;
-        color: #007185;
-        position:relative;
-         left: 17px; 
-        top: 2px;
-    } 
-    #see-more3{
-            font-size: 13px;
-            color: #007185;
-            position:relative;
-             left: 17px; 
-            top: 35px;
-        
-    }
-    #see-more4{
-        font-size: 13px;
-        color: #007185;
-        position:relative;
-         left: 17px; 
-        top: 55px;
-    
-    }
-    
-    .under-whole-content-container{
         display:flex;
         flex-direction: column;
         align-items: center;
     }
+}
+
+@media(max-width:1060px){
+    .margin1{
+        margin: 0;
+    }
+    .margin2{
+        margin: 0;
+    }
+     /* .image-nesteda{
+        width: 100px;
+     }
+     .image-nestedb{
+        width: 101px;
+     }
+     .image-nesteda img{
+        width: 100px;
+        right: 10px;
+        object-fit: contain;
+    }
+    .image-nestedb img{
+        width: 100px;
+        right: 20px;
+        object-fit: contain;
+    }
+    .image-nested3 img{
+        width: 200px;
+        height: 280px;
+        left: 15px;
+        object-fit: cover;
+    }
+    .image-nested4 img{
+        width: 210px;
+        left: 10px;
+    }
+    .image-nested5 img{
+        width: 60px;
+        height: 65px;
+    }
+    .chappal img{
+        width: 230px;
+        object-fit: contain;
+    } */
+    /* .image-select{
+        max-width: 244px;
+    } */
+  
     
     /*********************************** best seller in books ****************************/
     
-    .books-container{
-        max-width: 950px;
-    }
     /******************************** movies ***************************************/
     
-    .movies-container{
-        max-width: 950px;   
-    }
     /*************************** games *************************/
     
-    .games-container{
-        max-width: 950px;
-        padding-right: 20px;
-    }
     /* *********************************    new******************** */
     
     .nextdiv-container{
@@ -770,20 +825,6 @@
         position: relative;
         left: 19px;
     }
-    /****************************baby   gifts*****************************/
-    
-    .baby-gifts-container{
-        max-width: 950px;
-    }
-   
-    /*********************************deals ***************************/
-    
-    
-    
-    .deals-cotainer{
-        height: 366px;
-        width: 990px;
-    }
     .deals-image img{
         width: 150px;
         height: 180px;
@@ -818,12 +859,6 @@
     }
     /*********************************** book1*********************************** */
     
-    .books-container1{
-        max-width: 950px;
-        height: 281.5px;
-        /* left: 18px; */
-        overflow: auto;
-    }
     
     /********************************popular****************************/
     
@@ -831,7 +866,6 @@
         position: relative;
         bottom: 120px;
         background-color: white;
-        max-width: 950px;
         padding-right: 20px;
         height: 281.5px;
         /* left: 19px; */
@@ -846,6 +880,68 @@
 
 
 @media(max-width:1024px){
+    .image-select-container{
+        grid-template-columns: repeat(2,450px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem;
+    }
+    #image-select-four{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #image-select-five{
+        display:flex;
+    }
+    .image-nesteda{
+        width: 140px;
+     }
+     .image-nestedb{
+        width: 141px;
+     }
+     .image-nesteda img{
+        width: 130px;
+    }
+    .image-nestedb img{
+        width: 130px;
+    }
+    .image-nested3 img{
+        width: 350px;
+        object-fit: cover;
+        left: -50px;
+    }
+    .image-nested4 img{
+        width: 430px;
+        left: 10px;
+    }
+    .image-nested4{
+        position: relative;
+        left: -110px;
+    }
+    .imagenested5p{
+        position: relative;
+        left: -110px;
+    }
+    .image-nested5{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-nested5 img{
+        width: 150px;
+    }
+    .chappal img{
+        width: 300px;
+        left: -30px;
+        object-fit: cover;
+    }
+    .image-select{
+        width: 99%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .under-accounts{
         top: 7.8%;
     }
@@ -865,10 +961,6 @@
     
     /*********************************** best seller in books ****************************/
     
-    .books-container{
-        max-width: 900px;
-        padding-right: 20px;
-    }
     .bbtncontainer button{
       padding: 20px 10px; 
       z-index: 1;
@@ -877,30 +969,12 @@
       font-size: 20px;
     
     }
-    /******************************** movies ***************************************/
-    
-    .movies-container{
-        padding-right: 20px;
-        max-width: 900px;
-        margin: 0 auto;     
-    }
-    .movies-pictures-container{
-        padding-left: 20px;  
-    }
-    /*************************** games *************************/
-    
-    .games-container{
-        max-width: 900px;
-        padding-right: 20px;
-    }
-    /* *********************************    new******************** */
-    
     .nextdiv-container{
         left: -20px;
         max-width: 1300px; 
     }
     .nextdiv{
-        width: 225px;
+        width: 217px;
         height: 400px;
     }
     .nextdiv-image img{
@@ -926,19 +1000,6 @@
     #wall{
         position: relative;
         left: 19px;
-    }
-    /****************************baby   gifts*****************************/
-    
-    .baby-gifts-container{
-        max-width: 900px;
-    }
-    /*********************************deals ***************************/
-    
-    
-    
-    .deals-cotainer{
-        height: 366px;
-        width: 940px;
     }
     .deals-cotainer h2{
         font-size: 20px;
@@ -978,20 +1039,56 @@
     
     /*********************************** book1*********************************** */
     
-    .books-container1{
-        max-width: 900px;
-    }
     
     /********************************popular****************************/
     
-    .popular-container{
-        max-width: 900px;
-        padding-right: 20px;
-    }  
-     
-
+    #table-data{
+        width: 75px;
+    }
 }
-@media(max-width:768px){    
+@media(max-width:900px){
+    .image-select-container{
+        grid-template-columns: repeat(2,350px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem;
+    }
+    .image-nesteda{
+        width: 100px;
+     }
+     .image-nestedb{
+        width: 101px;
+     }
+     .image-nesteda img{
+        width: 110px;
+    }
+    .image-nestedb img{
+        width: 110px;
+    }
+    .image-nested3 img{
+        width: 250px;
+        object-fit: cover;
+        left: 0;
+    }
+    .image-nested4 img{
+        width: 235px;
+        left: 10px;
+    }
+    .image-nested5 img{
+
+    }
+    .chappal img{
+        width: 250px;
+        object-fit: contain;
+    }
+}
+@media(max-width:768px){   
+    .image-select-container{
+        grid-template-columns: repeat(2,300px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem;
+    }
     #first{
         padding: 2px 4px;
         font-size: 9px;
@@ -1008,13 +1105,41 @@
     #sixth{
         font-size: 9px;
     } 
+    #row-a{
+        max-width: 770px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+      }
+      #row-b{
+        max-width: 770px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+      }
+      #row-c{
+        max-width: 770px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+      }
+      #row-d{
+        max-width: 770px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+      }
+      .middle{
+         flex-wrap: wrap;
+      }
+      .div{
+         flex-wrap: wrap;
+         padding: 1rem;
+      }
+      .english-container{
+         flex-wrap:wrap;
+      }
 }
-@media(max-width:425px){    
-    .under-accounts{
-        top: 4.5%;
-        background-color: #007185;
-    }
-}
+
+
+
+
 @media(max-width:375px){    
 
 }

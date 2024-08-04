@@ -3,6 +3,7 @@
     font-family: arial;
     border: border-box;
 }
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -10,20 +11,17 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
-
-
 }
 /**************************************** box1 ************************************/
-.nav-logo{
-    background-image : url(amazon_logo.png);
+/* .nav-logo{
+    /* background-image : url(/images/amazon_logo.png); 
     height: 50px;
     width: 100px;
     background-size: cover;
     
 
 
-}
+} */
 .border{
     border: 1px solid transparent;
 }
@@ -96,7 +94,7 @@
     display: block;
 }
 #change{
-    margin-top: 10px;
+    margin: 10px 0;
     margin-left: 10px;
     font-size: 13px;
 }
@@ -106,14 +104,28 @@
     padding-left:1rem ;
     color: #007185;
 }
+.lang-ul-li{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 #lang-ul li{
     font-size: 14px;
 }
-#hrf{
-    margin-top: 20px;
+#lang-ul li:hover {
+    list-style: disc;
+    color: rgb(214, 142, 9);
+    text-decoration: underline;
 }
-#lang-ul li::marker{
-    font-size: 35px;
+#lang-ul i{
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+#hrf{
+    margin-bottom: 1rem;
+}
+#lang-ul{
+    padding: 0;
 }
 #you{
  font-size: 14px;
@@ -144,7 +156,7 @@
     color: black;
 }
 .dig ul{
-    list-style-type:circle;
+    list-style-type:none;
 }
 .language p{
     font-size: 14px;
@@ -278,7 +290,6 @@
     color: white;
     display: flex;
     align-items: center;
-    
 
 }
 
@@ -365,17 +376,32 @@
 }
 
 /****************************************** herosection ***************************************/
+#hero-cont{
+    display: flex;
+}
+#spacetaker{
+    height: 604px;
+    width: 100%;
+    background-color: #e2e7e6;
+}
+#spacetakera{
+    height: 604px;
+    width: 100%;
+    background-color: #e2e7e6;
+}
 .herosection{
     text-align: center;
     position: relative;
+    margin: 0 auto;
     overflow: hidden;
+    min-width: 1345px;
+    max-width: 1345px;
 }
 .hero-images img{
     height: 600px;
     width: 1343px;
 }
 .hero-images{
-
     transition: 1s;
 }
 .hero-images-container{
@@ -403,20 +429,25 @@
 
 #main{
     background-color: #e2e7e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
+.under-whole-content-container{
+    width: 93%;
+}
 /**************************//* imageselect /*****************************/
 .image-select-container{
     position: relative;
     top: -300px;
-    display: flex;
-    justify-content: space-evenly;
-     /* height: 100%;  */
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-rows: 400px 400px;
+    row-gap: 2.5rem;
+    margin-bottom: 3rem;
 } 
 .space{
     position: relative;
@@ -447,9 +478,9 @@
 }
 .image-nesteda img{
    position: relative;
-     width: 120px;
-     height: 115px;
-      object-fit:none;       
+   width: 120px;
+   height: 115px;
+   object-fit:none;       
 }
 .image-nested2 p{
     font-size: 12px;
@@ -474,7 +505,6 @@
     width: 249px;
     height: 300px;
     position: relative;
-    left: 25px;
     object-fit: none;
 }
 .chappal img{
@@ -530,9 +560,7 @@
     object-fit: none;
     position: relative;
    left: -2px;
-   
-   top: -35px;
-    
+   top: -35px;  
 }
 #move1{
     left: 5px;
@@ -549,11 +577,8 @@
    position: relative;
    top: -14px;
 } 
-
-
 .image-nested-image{
-    display: flex;
-    
+    display: flex; 
     width: 300px;
     height: 350px;
     flex-wrap: wrap;
@@ -577,7 +602,6 @@
     width: 310px;
     margin-top: 10px;
     height: 400px;
-    
 }
 .image-select h2{
     padding-bottom: 20px;
@@ -923,8 +947,9 @@
 .nextdiv-container1{
     display: flex;
     max-width: 1280px;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
+    gap: 1rem;
     top: 140px;
     left: -22px;
 }
@@ -1012,7 +1037,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: start;
-    height: 430px;
 }
 .middle ul{
     margin-top: 50px;
@@ -1030,7 +1054,6 @@
     margin-bottom: 14px;
 }
 .div{
-    height: 72px;
     background-color:#222f3d ;
     border-top: 1px solid #3a4553;
     display: flex;
@@ -1072,8 +1095,8 @@
 }
 .english-container{
     display: flex;
-    width: 427.23px;
-    justify-content: space-between;
+    width: 450px;
+    justify-content: space-evenly;
 }
 #up{
     filter: invert(32%) sepia(91%) saturate(19%) hue-rotate(341deg) brightness(96%) contrast(89%);
@@ -1115,7 +1138,6 @@
 }
 #row-space{
     height: 10px;
-
 }
 #row-a{
    display: flex;
