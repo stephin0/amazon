@@ -134,3 +134,116 @@ accountslist.addEventListener("mouseout",()=>{
   underacc.classList.remove("active-underacc");
 })
 
+
+//function to add div dynamically
+function adddiv(){
+  let divone = document.createElement("div") //creating new div
+
+  divone.id = "newdiv" //giving new div id 
+  divone.innerHTML = `<div class="image-select">
+                <h2>Amazon Gadget Store</h2>
+                <div class="image-nested-image">
+                    <div class="image-nested4">
+                        <img src="images/image0.jpg">
+                         <p>Smartphones</p>
+                    </div>
+                    <div class="imagenested5p">
+                            <div class="image-nested5">
+                                <img src="images/image0.1.jpg" id="move1">
+                                <p>Tablets</p> 
+                            </div>
+                            <div class="image-nested5">
+                                <img src="images/image0.2.jpg">
+                                <p>Laptops</p>
+                            </div>
+                            <div class="image-nested5">
+                                 <img src="images/image0.3.jpg" id="move2">
+                                <p>TVs</p>
+                            </div>
+                    </div>
+                    <p  id="see-more2">See more from Amazon Gadgets</p>
+                </div>
+            </div>
+            <div class="image-select space" >
+                <h2>Shop deals in fashion</h2>
+                <div class="image-nested-imagea">
+                    <div class="image-nesteda imagea">
+                        <img src="images/image4.jpg">
+                         <p class="margin2">Jeans under $50</p>
+                    </div>
+                    <div class="image-nestedb imageb">
+                        <img src="images/image4.1.jpg">
+                         <p class="margin2">Tops under 25</p> 
+                    </div>
+                    <div class="image-nesteda imagea">
+                        <img src="images/image4.2.jpg">
+                         <p class="margin2">Dresses under $39</p>
+                     </div>
+                    <div class="image-nestedb imageb">
+                         <img src="images/image4.3.jpg">
+                        <p class="margin2">Shoes under $50</p>
+                    </div>
+                      <p id="see-more">See all deals</p>
+                </div>
+            </div>
+            <div class="nextdivone" >
+                    <h2>Gaming merchandise</h2>
+                    <div class="image-nested-image nextdiv1">
+                        <div class="image-nested-image">
+                            <div class="image-nested1">
+                                <img src="images/nextimage3.1.jpg">
+                                <p>Apparels</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img  src="images/nextimage3.2.jpg"  >
+                                <p>Hats</p> 
+                            </div>
+                            <div class="image-nested1">
+                                <img src="images/nextimage3.3.jpg" >
+                                <p>Action figures</p>
+                                <p id="see-more">See more</p>
+                            </div>
+                            <div class="image-nested2">
+                                <img src="images/nextimage3.4.jpg" >
+                                <p>Mug</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            `
+   let container = document.querySelector(".image-select-container")
+
+   container.after(divone)
+
+  
+}
+
+//function to check width and call adding div function
+
+function checkWidthadd(){
+  let width = 1230 // specify needed width
+
+  if(window.innerWidth<=width){
+    // check wether the div is added or not
+    console.log("in");
+    
+      if(!document.querySelector("#newdiv")){
+        adddiv()
+      }
+  }else{
+    console.log("out");
+    
+    let removediv = document.querySelector("#newdiv")
+
+    if(removediv)
+      removediv.remove()
+  }
+
+ 
+}
+
+window.addEventListener("resize",checkWidthadd)
+
+checkWidthadd()

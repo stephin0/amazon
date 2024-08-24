@@ -205,7 +205,7 @@
     max-width: 1370px; 
 }
 .nextdiv{
-    width: 332px;
+    width: 25%;
 }
 .nextdiv-image img{
     height: 230px;
@@ -231,9 +231,7 @@
 }  
 /*********************************** new1******************** */
 
-.nextdiv-container1{
-    max-width: 1370px;
-}
+
 
 /*********************************** book1*********************************** */
 
@@ -320,11 +318,11 @@
 
 .nextdiv-container{
     left: -20px;
-    max-width: 1370px; 
+    /* max-width: 1370px;  */
 }
-.nextdiv{
+/* .nextdiv{
     width: 320px;
-}
+} */
 .nextdiv-image img{
     height: 230px;
 }
@@ -378,16 +376,16 @@
 
     
     .nextdiv-container{
-        max-width: 1300px;   
+        /* max-width: 1300px;    */
     }
 
     .nextdiv-image img{
         height: 230px;
         width: 250px;
     }
-    .nextdiv{
+    /* .nextdiv{
         width: 300px;
-    }
+    } */
     .nextdiv-image1 img{
         width: 250px;
         height: 280px;
@@ -457,22 +455,25 @@
         display: flex;
         width: 300px;
         height: 370px;
-        flex-wrap: wrap;
         justify-content: flex-start;
     }
     .nextdiv-container{
         left: -20px;
-        max-width: 1300px;
+        /* max-width: 1300px; */
+        gap: 2rem;
     }
     .nextdiv-image img{
         height: 200px;
-        width: 230px;
+        width: 250px;
+        left: 0;
     }
     .nextdiv{
-        width: 274px;
+        width: 22%;
+        height: 370px;
     }
     .nextdiv-image1 img{
-        width: 240px;
+        width: 300px;
+        left: 0;
         height: 270px;
     }
     .nextdiv-container1{
@@ -499,6 +500,9 @@
     #image-select-five{
         display:none;
     }
+    #image-select-six{
+        display: none;
+    }
     .image-select-container{
         grid-template-columns: 350px 350px 350px ;
         grid-template-rows: 400px 400px;
@@ -507,6 +511,14 @@
     } 
     .image-select{
         width: 350px;
+    }
+    .nextdiv{
+        width: 350px;
+    }
+    .nextdiv-image img{
+        height: 200px;
+        width: 300px;
+        left: 20px;
     }
     .image-nesteda{
         width: 120px;
@@ -534,6 +546,12 @@
 }
 @media(max-width:1180px){
     .image-select-container{
+        grid-template-columns: 340px 340px 340px ;
+        grid-template-rows: 400px 400px;
+        gap: 2rem;
+        row-gap: 3rem;
+    }
+    #newdiv{
         grid-template-columns: 340px 340px 340px ;
         grid-template-rows: 400px 400px;
         gap: 2rem;
@@ -572,6 +590,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .nextdivone{
+        width: 330px;
+    }
     .hero-images img{
         height: 600px;
         width: 1440px;
@@ -595,23 +616,19 @@
         justify-content:center;
         position: relative;
         left: -20px;
-        max-width: 1300px;
+        /* max-width: 1300px; */
         top: 80px;
         gap: .8rem;
-        flex-wrap: wrap;
        
     }
-    .nextdiv{
+    /* .nextdiv{
         width: 250px;
         height: 380px;
-    }
-    .nextdiv-image img{
-        height: 200px;
-        width: 200px;
-    }
+    } */
     .nextdiv-image1 img{
         width: 210px;
         height: 270px;
+        left: 60px;
     }
     .image-nested1 img {
         width:105px ;
@@ -674,6 +691,18 @@
         gap: 1rem;
         row-gap: 3rem;
     }
+    #newdiv{
+        grid-template-columns: repeat(3,320px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 1rem;
+        row-gap: 3rem;
+    }
+    .nextdiv{
+        width: 300px;
+    }
+    .nextdiv-image img{
+        width: 270px;
+    }
     .image-nesteda{
         width: 100px;
      }
@@ -708,8 +737,10 @@
         flex-direction: column;
         align-items: center;
     }
+    .nextdivone{
+        width: 310px;
+    }
 }
-
 @media(max-width:1060px){
     .margin1{
         margin: 0;
@@ -717,71 +748,17 @@
     .margin2{
         margin: 0;
     }
-     /* .image-nesteda{
-        width: 100px;
-     }
-     .image-nestedb{
-        width: 101px;
-     }
-     .image-nesteda img{
-        width: 100px;
-        right: 10px;
-        object-fit: contain;
-    }
-    .image-nestedb img{
-        width: 100px;
-        right: 20px;
-        object-fit: contain;
-    }
-    .image-nested3 img{
-        width: 200px;
-        height: 280px;
-        left: 15px;
-        object-fit: cover;
-    }
-    .image-nested4 img{
-        width: 210px;
-        left: 10px;
-    }
-    .image-nested5 img{
-        width: 60px;
-        height: 65px;
-    }
-    .chappal img{
-        width: 230px;
-        object-fit: contain;
-    } */
-    /* .image-select{
-        max-width: 244px;
-    } */
-  
     
-    /*********************************** best seller in books ****************************/
-    
-    /******************************** movies ***************************************/
-    
-    /*************************** games *************************/
-    
-    /* *********************************    new******************** */
     
     .nextdiv-container{
         display: flex;
         justify-content:center;
         position: relative;
         left: -20px;
-        max-width: 1300px;
+        /* max-width: 1300px; */
         top: 80px;
         gap: .8rem;
-        flex-wrap: wrap;
        
-    }
-    .nextdiv{
-        background-color: white;
-        width: 238px;
-        height: 360px;
-        position: relative;
-        top: -300px;
-        left: 20px;
     }
     .nextdiv h2{
         position: relative;
@@ -792,14 +769,6 @@
     .nextdiv1{
         position: relative;
         top: 30px;
-    }
-    .nextdiv-image img{
-        height: 200px;
-        width: 200px;
-        position: relative;
-        left: 20px;
-        top:38px ;
-        object-fit: cover;
     }
     .nextdiv-image1 img{
         position:relative ;
@@ -886,13 +855,14 @@
         gap: 1rem;
         row-gap: 3rem;
     }
-    #image-select-four{
-        display:flex;
-        justify-content: center;
-        align-items: center;
+    #newdiv{
+        grid-template-columns: repeat(2,450px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem;
     }
-    #image-select-five{
-        display:flex;
+    .nextdivone{
+        display: none;
     }
     .image-nesteda{
         width: 140px;
@@ -955,7 +925,6 @@
         display: flex;
         width: 230px;
         height: 350px;
-        flex-wrap: wrap;
         justify-content: flex-start;
     } 
     
@@ -971,16 +940,12 @@
     }
     .nextdiv-container{
         left: -20px;
-        max-width: 1300px; 
+        /* max-width: 1300px;  */
     }
-    .nextdiv{
+    /* .nextdiv{
         width: 217px;
         height: 400px;
-    }
-    .nextdiv-image img{
-        height: 230px;
-        width: 190px;
-    }
+    } */
     .nextdiv-image1 img{
         width: 190px;
         height: 250px;
@@ -1053,6 +1018,12 @@
         gap: 1rem;
         row-gap: 3rem;
     }
+    #newdiv{
+        grid-template-columns: repeat(2,350px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem; 
+    }
     .image-nesteda{
         width: 100px;
      }
@@ -1072,14 +1043,63 @@
     }
     .image-nested4 img{
         width: 235px;
-        left: 10px;
+        left: 0px;
     }
     .image-nested5 img{
-
+        width: 100px;
+        left: 0;
+        top: 0;
+    }
+    #move2{
+        left: 0;
+    }
+    .imagenested5p{
+        position: relative;
+        left: -40px;
+    }
+    .image-nested4{
+        position: relative;
+        left: 0;
     }
     .chappal img{
         width: 250px;
         object-fit: contain;
+    }
+    .deals-image img{
+        width: 130px;
+        height: 150px;
+    }
+    #first{
+        padding: 3px 5px;
+        font-size: 9px;
+    }
+    #sec{
+        font-size:10px
+    }
+    #fourth{
+        font-size: 12px;
+    }
+    #fifth{
+        font-size:9px
+    }
+    #sixth{
+        font-size: 9px;
+    }
+}
+@media(max-width:950px){
+    .nextdiv{
+        width: 270px;
+    }
+    .nextdiv-image img{
+        width: 230px;
+    }
+}
+@media(max-width:850px){
+    .nextdiv{
+        width: 240px;
+    }
+    .nextdiv-image img{
+        width: 200px;
     }
 }
 @media(max-width:768px){   
@@ -1088,6 +1108,22 @@
         grid-template-rows: repeat(3,400px);
         gap: 1rem;
         row-gap: 3rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,300px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 3rem;
+    }
+    .nextdiv{
+        width: 200px;
+    }
+    .nextdiv-image img{
+        width: 170px;
+    }
+    .nextdiv-image1 img{
+        width: 170px;
+        object-fit: cover;
     }
     #first{
         padding: 2px 4px;
@@ -1136,16 +1172,473 @@
          flex-wrap:wrap;
       }
 }
-
-
-
-
-@media(max-width:375px){    
-
-}
-@media(max-width:320px){    
+@media(max-width:650px){
+    .image-select-container{
+        grid-template-columns: repeat(2,250px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,250px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,250px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    #image-select-six{
+        display: block;
+    }
+    .image-select-container{
+        margin: 0;
+    }
+    .nextdiv{
+        width: 250px;
+    }
+    .nextdiv-image img{
+        width: 200px;
+    }
+    .nextdiv-image1 img{
+        width: 200px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .nextdiv h2 {
+        left: 5px;
+        font-size: 16px;
+    }
+    .image-nested-image1{
+        width: 180px;
+        display:grid;
+        grid-template-columns: repeat(2,100px);
+    }
+    .image-select{
+        overflow: hidden;
+    }
+    .image-nesteda{
+        left: 50px;
+    }
+    .image-nestedb{
+        left: 70px;
+    }
+    .image-nesteda img{
+        object-fit: contain;
+        left: -18px;
+        height: 90px;
+    }
+    .image-nestedb img{
+        object-fit: contain;
+        left: -25px;
+        height: 90px;
+    }
+    .imagea img{
+        width: 70px;
+        left: 10px;
+    }
+    .imageb img{
+        width: 70px;
+        left: -5px;
+    }
+    .image-nested4{
+        left: 38px;
+    }
+    .image-nested4 img{
+        width: 150px;
+    }
+    .imagenested5p{
+        left: 25px;
+        justify-content:unset;
+        gap: 8px;
+    }
+    .image-nested5 p{
+        bottom: 0;
+        left: 0;
+    }
+    .image-nested5 img{
+        width: 50px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .image-nested3 img{
+        width: 190px;
+        height: 250px;
+        left: 25px;
+    }
+    .image-select{
+        height: 350px;
+    }
+    .books-container{
+        width: 89%;
+    }
+    .games-container{
+        width: 89%;
+    }
+    .books-container1{
+        width: 89%;
+    }
+    .movies-container{
+        width: 89%;
+    }
+    .baby-gifts-container{
+        width: 89%;
+    }
+    .popular-container{
+        width: 89%;
+    }
     
 }
-@media(max-width:280px){    
 
+
+
+
+
+@media(max-width:570px){    
+    .image-select-container{
+        grid-template-columns: repeat(2,230px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,230px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,230px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    .nextdiv{
+        width: 230px;
+    }
+    .nextdiv-image img{
+        width: 190px;
+    }
+    .nextdiv-image1 img{
+        width: 200px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .nextdiv h2 {
+        left: 5px;
+        font-size: 16px;
+    }
+    .image-select{
+        overflow: hidden;
+    }
+    .image-nesteda img{
+        object-fit: contain;
+    }
+    .image-nestedb img{
+        object-fit: contain;
+    }
+    .image-nested3 img{
+        width: 220px;
+    }
+}
+
+@media(max-width:500px){    
+    .image-select-container{
+        grid-template-columns: repeat(2,200px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,200px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,200px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    .nextdiv{
+        width: 200px;
+        overflow: hidden;
+    }
+    .nextdiv-image img{
+        width: 170px;
+    }
+    .nextdiv-image1 img{
+        width: 170px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .image-nested2 img{
+        object-fit: contain;
+        left: -10px;
+        width: 110px;
+    }
+    .image-nested1 img{
+        object-fit: contain;
+        width: 110px;
+        left: -10px;
+    }
+    .image-select{
+        overflow: hidden;
+    }
+    .image-nesteda img{
+        object-fit: contain;
+    }
+    .image-nestedb img{
+        object-fit: contain;
+    }
+    .image-nested3 img{
+        width: 200px;
+    }
+}
+@media(max-width:440px){    
+    .image-select-container{
+        grid-template-columns: repeat(2,180px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,180px) ;
+        gap: 1rem;
+        row-gap: 0rem;
+
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,180px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    .nextdiv{
+        width: 180px;
+    }
+    .nextdiv-image img{
+        width: 150px;
+    }
+    .nextdiv-image1 img{
+        width: 150px;
+        object-fit: cover;
+        height: 230px;
+    }
+    
+    .image-select{
+        overflow: hidden;
+    }
+    .image-nesteda{
+        left: 70px;
+    }
+    .image-nestedb{
+        left: 70px;
+    }
+    .image-nesteda img{
+        object-fit: contain;
+        left: -18px;
+        height: 60px;
+    }
+    .image-nestedb img{
+        object-fit: contain;
+        left: -25px;
+        height: 60px;
+    }
+    .imagea img{
+        width: 70px;
+        left: 10px;
+    }
+    .imageb img{
+        width: 70px;
+        left: -5px;
+    }
+    .image-nested4{
+        left: 38px;
+    }
+    .image-nested4 img{
+        width: 150px;
+    }
+    .imagenested5p{
+        left: 25px;
+        justify-content:unset;
+        gap: 8px;
+    }
+    .image-nested5 p{
+        bottom: 0;
+        left: 0;
+    }
+    .image-nested5 img{
+        width: 50px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .image-nested3 img{
+        width: 150px;
+        height: 250px;
+        left: 35px;
+    }
+    .image-select{
+        height: 350px;
+    }
+}
+
+@media(max-width:400px){    
+    .image-select-container{
+        grid-template-columns: repeat(2,150px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,150px) ;
+        gap: 1rem;
+        row-gap: 0rem;
+
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,150px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 0;
+        column-gap: 1.5rem;
+    }
+    .nextdiv{
+        width: 150px;
+        height: 350px;
+    }
+    .image-nested2 img{
+        object-fit: contain;
+        left: -5px;
+        width: 75px;
+    }
+    .image-nested2{
+        position: relative;
+        left: -20px;
+    }
+    .image-nested1 img{
+        object-fit: contain;
+        width: 75px;
+        left: -5px;
+    }
+    .nextdiv-image img{
+        width: 110px;
+    }
+    .nextdiv-image1 img{
+        width: 120px;
+        object-fit: cover;
+        height: 200px;
+    }
+    .image-select{
+        overflow: hidden;
+    }
+    .image-nesteda{
+        left: 70px;
+    }
+    .image-nestedb{
+        left: 70px;
+    }
+    .image-nesteda img{
+        object-fit: contain;
+        left: -18px;
+        height: 60px;
+    }
+    .image-nestedb img{
+        object-fit: contain;
+        left: -25px;
+        height: 60px;
+    }
+    .imagea img{
+        width: 70px;
+        left: 10px;
+    }
+    .imageb img{
+        width: 70px;
+        left: -5px;
+    }
+    .image-nested4{
+        left: 38px;
+    }
+    .image-nested4 img{
+        width: 100px;
+    }
+    .imagenested5p{
+        left: 25px;
+        justify-content:unset;
+        gap: 8px;
+    }
+    .image-nested5 p{
+        bottom: 0;
+        left: 0;
+    }
+    .image-nested5 img{
+        width: 50px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .image-nested3 img{
+        width: 150px;
+        height: 250px;
+        left: 35px;
+    }
+    .image-select{
+        height: 350px;
+    }
+}
+@media(max-width:350px){    
+    .image-select-container{
+        grid-template-columns: repeat(2,130px) ;
+        grid-template-rows: repeat(3,400px);
+        gap: 1rem;
+        row-gap: 0rem;
+    }
+    #newdiv{
+        grid-template-columns: repeat(2,130px) ;
+        gap: 1rem;
+        row-gap: 0rem;
+
+    }
+    .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,130px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 0;
+        column-gap: 1.5rem;
+    }
+    .nextdiv{
+        width: 130px;
+        height: 330px;
+    }
+    .image-nested2 img{
+        object-fit: contain;
+        left: -5px;
+        width: 75px;
+    }
+    .image-nested2{
+        position: relative;
+        left: -20px;
+    }
+    .image-nested1 img{
+        object-fit: contain;
+        width: 75px;
+        left: -5px;
+    }
+    .nextdiv-image img{
+        width: 100px;
+    }
+    .nextdiv-image1 img{
+        width: 110px;
+        object-fit: cover;
+        height: 200px;
+    }
+    .image-nested3 img{
+        width: 100px;
+        height: 210px;
+        left: 60px;
+    }
 }

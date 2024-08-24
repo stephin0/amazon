@@ -603,6 +603,18 @@
     margin-top: 10px;
     height: 400px;
 }
+#newdiv{
+    position: relative;
+    top: -355px;
+    padding-top: 20px;
+    margin-top: 30px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 400px 400px;
+    gap: 2rem;
+    row-gap: 3rem;
+}
 .image-select h2{
     padding-bottom: 20px;
     padding-left: 20px;
@@ -784,7 +796,6 @@
     max-width: 1300px;
     top: 80px;
     gap: .8rem;
-    flex-wrap: wrap;
    
 }
 .nextdiv{
@@ -794,6 +805,14 @@
     position: relative;
     top: -300px;
     left: 20px;
+}
+.nextdivone{
+    background-color: white;
+    width: 350px;
+    height: 420px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .nextdiv h2{
     position: relative;
