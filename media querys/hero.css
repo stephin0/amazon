@@ -398,7 +398,6 @@
         top: 140px;
         left: -22px;
         gap: .9rem;
-        flex-wrap: wrap;
     }
     
 }
@@ -478,15 +477,40 @@
     }
     .nextdiv-container1{
         max-width: 1280px;
-        flex-wrap: wrap;
     }
     .image-nested1 img {
         width:110px ;
         height: 110px;
+        object-fit: contain
+    }
+    .nextdiv-image1 img {
+        width: 210px;
+        left: 21px;
+        height: 220px;
+    }
+    .nextdiv-image img {
+        height: 174px;
+        width: 200px;
+        left: 23px;
+    }
+    .nestedone img{
+        width: 100px;
     }
     .image-nested2 img {
         width:110px ;
         height: 110px;
+        left: 0;
+        object-fit: contain
+    }
+    .nestedtwo img{
+        width: 100px;
+    }
+    .nestedtwo{
+        position: relative;
+        left: -35px;
+    }
+    #wall{
+        margin-left: 10px;
     }
     #outdoor{
         position: relative;
@@ -501,6 +525,9 @@
         display:none;
     }
     #image-select-six{
+        display: none;
+    }
+    #image-selectseven{
         display: none;
     }
     .image-select-container{
@@ -667,7 +694,6 @@
         position: relative;
         top: 140px;
         left: -22px;
-        flex-wrap: wrap;
     }
     /*********************************** book1*********************************** */
     
@@ -824,7 +850,6 @@
         position: relative;
         top: 140px;
         left: -22px;
-        flex-wrap: wrap;
     }
     /*********************************** book1*********************************** */
     
@@ -999,7 +1024,6 @@
         position: relative;
         top: 140px;
         left: -22px;
-        flex-wrap: wrap;
     }
     
     /*********************************** book1*********************************** */
@@ -1093,6 +1117,17 @@
     .nextdiv-image img{
         width: 230px;
     }
+    .image-nested5 p{
+        bottom: 0;
+        left: 0;
+    }
+    #see-more{
+        font-size: 13px;
+        color: #007185;
+        position: relative;
+        left: -211px;
+        top: 158px;
+      }
 }
 @media(max-width:850px){
     .nextdiv{
@@ -1171,18 +1206,22 @@
       .english-container{
          flex-wrap:wrap;
       }
+      #see-more{
+        left: -191px;
+      }
 }
 @media(max-width:650px){
     .image-select-container{
         grid-template-columns: repeat(2,250px) ;
         grid-template-rows: repeat(3,400px);
         gap: 1rem;
-        row-gap: 0rem;
+        row-gap: 2rem;
     }
     #newdiv{
         grid-template-columns: repeat(2,250px) ;
         grid-template-rows: repeat(3,400px);
         gap: 1rem;
+        margin-top: 4rem;
         row-gap: 0rem;
     }
     .nextdiv-container{
@@ -1192,6 +1231,9 @@
         column-gap: 2rem;
     }
     #image-select-six{
+        display: block;
+    }
+    #image-selectseven{
         display: block;
     }
     .image-select-container{
@@ -1217,14 +1259,44 @@
         display:grid;
         grid-template-columns: repeat(2,100px);
     }
+    .image-nested1 img{
+        width: 120px;    
+    }
+    .image-nested2 img{
+        width: 120px;
+    }
+    .nestedone{
+
+    }
+    .nestedtwo{
+        position: relative;
+        left: 20px;
+    }
+    .nestedone img{
+        width: 100px;
+    }
+    #wall{
+        left: -10px;
+    }
+    .nestedtwo img{
+        width: 100px;
+    }
+    .nextdiv-container1{
+        display:grid;
+        grid-template-columns: repeat(2,250px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
     .image-select{
         overflow: hidden;
     }
     .image-nesteda{
-        left: 50px;
+        left: 60px;
+        height: 100px;
     }
     .image-nestedb{
         left: 70px;
+        height: 100px;
     }
     .image-nesteda img{
         object-fit: contain;
@@ -1269,8 +1341,12 @@
         height: 250px;
         left: 25px;
     }
+    .chappal img{
+        width: 230px;
+        left: -4px;
+    }
     .image-select{
-        height: 350px;
+        height: 380px;
     }
     .books-container{
         width: 89%;
@@ -1290,7 +1366,10 @@
     .popular-container{
         width: 89%;
     }
-    
+    #see-more{
+        top: 139px;
+        left: -161px;
+    }
 }
 
 
@@ -1302,7 +1381,7 @@
         grid-template-columns: repeat(2,230px) ;
         grid-template-rows: repeat(3,400px);
         gap: 1rem;
-        row-gap: 0rem;
+        row-gap: 2rem;
     }
     #newdiv{
         grid-template-columns: repeat(2,230px) ;
@@ -1311,6 +1390,12 @@
         row-gap: 0rem;
     }
     .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,230px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    .nextdiv-container1{
         display:grid;
         grid-template-columns: repeat(2,230px) ;
         grid-template-rows: repeat(2,400px);
@@ -1341,7 +1426,11 @@
         object-fit: contain;
     }
     .image-nested3 img{
-        width: 220px;
+        width: 180px;
+    }
+    .chappal img{
+        width: 206px;
+        left: 10px;
     }
 }
 
@@ -1360,6 +1449,12 @@
 
     }
     .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,200px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
+    .nextdiv-container1{
         display:grid;
         grid-template-columns: repeat(2,200px) ;
         grid-template-rows: repeat(2,400px);
@@ -1397,7 +1492,41 @@
         object-fit: contain;
     }
     .image-nested3 img{
-        width: 200px;
+        width: 160px;
+        left: 30px;
+    }
+    .image-nested3{
+        position: relative;
+        left: 10px;
+    }
+    .chappal img{
+        width: 180px;
+        left: 22px;
+    }
+    #see-more{
+        left: -138px;
+    }
+    .nestedone{
+        position: relative;
+    }
+    .nestedtwo{
+        position: relative;
+        left:-20px;
+    }
+    .nestedone img{
+        width: 80px;
+        left: 20px;
+    }
+    #wall{
+        left: 25px;
+    }
+    #outdoor{
+        left: 25px;
+    }
+    .nestedtwo img{
+        width: 80px;
+        position: relative;
+        left: 50px;
     }
 }
 @media(max-width:440px){    
@@ -1419,6 +1548,12 @@
         grid-template-rows: repeat(2,400px);
         column-gap: 2rem;
     }
+    .nextdiv-container1{
+        display:grid;
+        grid-template-columns: repeat(2,180px) ;
+        grid-template-rows: repeat(2,400px);
+        column-gap: 2rem;
+    }
     .nextdiv{
         width: 180px;
     }
@@ -1430,9 +1565,12 @@
         object-fit: cover;
         height: 230px;
     }
-    
+    .margin1{
+        font-size: 13px;
+    }
     .image-select{
         overflow: hidden;
+        height: 370px;
     }
     .image-nesteda{
         left: 70px;
@@ -1481,10 +1619,21 @@
     .image-nested3 img{
         width: 150px;
         height: 250px;
+        left: 10px;
+    }
+    .image-nested3{
+        left: 30px;
+    }
+    .chappal img{
+        width: 160px;
         left: 35px;
     }
-    .image-select{
-        height: 350px;
+    .margin2{
+        font-size: 10px;
+    }
+    #see-more{
+        left: -130px;
+        top: 105px;
     }
 }
 
@@ -1502,6 +1651,13 @@
 
     }
     .nextdiv-container{
+        display:grid;
+        grid-template-columns: repeat(2,150px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 0;
+        column-gap: 1.5rem;
+    }
+    .nextdiv-container1{
         display:grid;
         grid-template-columns: repeat(2,150px) ;
         grid-template-rows: repeat(2,400px);
@@ -1538,10 +1694,13 @@
         overflow: hidden;
     }
     .image-nesteda{
-        left: 70px;
+        left: 80px;
     }
     .image-nestedb{
-        left: 70px;
+        left: 65px;
+    }
+    .margin1{
+        font-size: 10px;
     }
     .image-nesteda img{
         object-fit: contain;
@@ -1554,18 +1713,19 @@
         height: 60px;
     }
     .imagea img{
-        width: 70px;
-        left: 10px;
+        width: 66px;
+        left: 0px;
     }
     .imageb img{
-        width: 70px;
-        left: -5px;
+        width: 66px;
+        left: -11px;
     }
     .image-nested4{
         left: 38px;
     }
     .image-nested4 img{
-        width: 100px;
+        width: 126px;
+        left: 16px;
     }
     .imagenested5p{
         left: 25px;
@@ -1582,12 +1742,30 @@
         object-fit: cover;
     }
     .image-nested3 img{
-        width: 150px;
-        height: 250px;
-        left: 35px;
+        width: 130px;
+        height: 230px;
+        left: 20px;
+    }
+    .image-nested3{
+
     }
     .image-select{
-        height: 350px;
+        height: 400px;
+    }
+    .chappal img{
+        width: 135px;
+        left: 46px;
+    }
+    #see-more2 {
+        font-size: 8px;
+        color: #007185;
+        position: relative;
+        left: 46px;
+        top: 2px;
+    }
+    #see-more{
+        left: -116px;
+        top: 105px;
     }
 }
 @media(max-width:350px){    
@@ -1610,9 +1788,36 @@
         gap: 0;
         column-gap: 1.5rem;
     }
+    .nextdiv-container1{
+        display:grid;
+        grid-template-columns: repeat(2,130px) ;
+        grid-template-rows: repeat(2,400px);
+        gap: 0;
+        column-gap: 1.5rem;
+    }
     .nextdiv{
         width: 130px;
         height: 330px;
+    }
+    .image-nesteda img{
+        left: -5px;
+        width: 80px;
+    }
+    .image-nestedb img{
+        width: 80px;
+    }
+    .imagea img{
+        width: 50px;
+        left: 13px;
+    }
+    .imageb img{
+        width: 50px;
+        left: -8px;
+    }
+    .image-nested4 img{
+        height: 140px;
+        left: 25px;
+        width: 100px;
     }
     .image-nested2 img{
         object-fit: contain;
@@ -1639,6 +1844,21 @@
     .image-nested3 img{
         width: 100px;
         height: 210px;
-        left: 60px;
+        left: 25px;
+    }
+    .image-nested3{
+        left: 40px;
+    }
+    #moveone{
+        position: relative;
+        left: 15px;
+    }
+    #movetwo{
+        position: relative;
+        left: 10px;
+    }
+    .chappal img{
+        width: 120px;
+        left: 55px;
     }
 }

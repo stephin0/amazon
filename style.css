@@ -603,6 +603,10 @@
     margin-top: 10px;
     height: 400px;
 }
+.image-nested-image1{
+    display:grid;
+    grid-template-columns: repeat(2,150px);
+}
 #newdiv{
     position: relative;
     top: -355px;
